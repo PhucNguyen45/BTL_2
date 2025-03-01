@@ -45,12 +45,11 @@
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.csdlflimDataSet = new Winform_Nhom20_BTL.csdlflimDataSet();
-            this.csdlflimDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.csdlflimDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.csdlflimDataSetBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -110,6 +109,9 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.Info;
+            this.panel1.Controls.Add(this.label8);
+            this.panel1.Controls.Add(this.label7);
+            this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button1);
@@ -162,20 +164,6 @@
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker1.TabIndex = 9;
             // 
-            // tabPage1
-            // 
-            this.tabPage1.Location = new System.Drawing.Point(0, 0);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Size = new System.Drawing.Size(200, 100);
-            this.tabPage1.TabIndex = 0;
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Location = new System.Drawing.Point(0, 0);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Size = new System.Drawing.Size(200, 100);
-            this.tabPage2.TabIndex = 0;
-            // 
             // vScrollBar1
             // 
             this.vScrollBar1.Location = new System.Drawing.Point(767, 0);
@@ -193,15 +181,35 @@
             this.panel2.Size = new System.Drawing.Size(786, 614);
             this.panel2.TabIndex = 10;
             // 
-            // csdlflimDataSet
+            // label6
             // 
-            this.csdlflimDataSet.DataSetName = "csdlflimDataSet";
-            this.csdlflimDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(3, 243);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(46, 17);
+            this.label6.TabIndex = 13;
+            this.label6.Text = "label6";
             // 
-            // csdlflimDataSetBindingSource
+            // label7
             // 
-            this.csdlflimDataSetBindingSource.DataSource = this.csdlflimDataSet;
-            this.csdlflimDataSetBindingSource.Position = 0;
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(3, 274);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(46, 17);
+            this.label7.TabIndex = 14;
+            this.label7.Text = "label7";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(3, 306);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(46, 17);
+            this.label8.TabIndex = 15;
+            this.label8.Text = "label8";
             // 
             // Form3
             // 
@@ -215,8 +223,6 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.csdlflimDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.csdlflimDataSetBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -239,7 +245,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.VScrollBar vScrollBar1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.BindingSource csdlflimDataSetBindingSource;
-        private csdlflimDataSet csdlflimDataSet;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
     }
 }
