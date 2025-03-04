@@ -16,7 +16,11 @@ namespace Winform_Nhom20_BTL
         {
             InitializeComponent();
 
-            panel2.AutoScroll = true;
+            //panel2.AutoScroll = true;
+            timer1 = new Timer();
+            timer1.Interval = 1000; // Set the interval to 1 second (1000 milliseconds)
+            timer1.Tick += new EventHandler(timer1_Tick);
+            timer1.Start();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
