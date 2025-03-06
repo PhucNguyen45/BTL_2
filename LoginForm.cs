@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace Winform_Nhom20_BTL
 {
-    public partial class Form1 : Form
+    public partial class LoginForm : Form
     {
-        public Form1()
+        public LoginForm()
         {
             InitializeComponent();
 
-            this.FormClosing += new FormClosingEventHandler(Form1_FormClosing);
+            this.FormClosing += new FormClosingEventHandler(LoginForm_FormClosing);
         }
 
-        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        private void LoginForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
         }
@@ -32,7 +32,7 @@ namespace Winform_Nhom20_BTL
             if (user == "admin" && pass == "admin")
             {
                 MessageBox.Show("Admin đăng nhập thành công");
-                Form2 f2 = new Form2(user);
+                DashBoardForm f2 = new DashBoardForm(user);
                 f2.Show();
                 this.Hide();
             }

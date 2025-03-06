@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Winform_Nhom20_BTL
 {
-    public partial class Form4: Form
+    public partial class ManageForm: Form
     {
-        public Form4()
+        public ManageForm()
         {
             InitializeComponent();
         }

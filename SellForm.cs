@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Winform_Nhom20_BTL
 {
-    public partial class Form3: Form
+    public partial class SellForm: Form
     {
-        public Form3()
+        public SellForm()
         {
             InitializeComponent();
 
@@ -21,6 +21,7 @@ namespace Winform_Nhom20_BTL
             timer1.Interval = 1000; // Set the interval to 1 second (1000 milliseconds)
             timer1.Tick += new EventHandler(timer1_Tick);
             timer1.Start();
+
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -28,14 +29,22 @@ namespace Winform_Nhom20_BTL
             this.label4.Text = DateTime.Now.ToString();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Bạn chắc chắn muốn thoát");
-            Form2 f2 = new Form2("defaultUserName");
-            f2.Show();
+            MessageBox.Show("Xác nhận hoàn thành đơn vé");
+            // đoạn này để lưu dữ liệu mật khẩu mới vào SQL Server Database
             this.Close();
         }
 
-        
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Xác nhận hủy đơn vé");
+            this.Close();
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

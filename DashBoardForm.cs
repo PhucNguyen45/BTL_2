@@ -11,26 +11,25 @@ using System.Windows.Forms;
 
 namespace Winform_Nhom20_BTL
 {
-    public partial class Form2 : Form
+    public partial class DashBoardForm : Form
     {
-        public Form2(string UserName)
+        public DashBoardForm(string UserName)
         {
             InitializeComponent();
             label1.Text = "Xin chào, " + UserName;
-            label2.Text = "Người đăng nhập: " + UserName;
-
-            this.FormClosing += new FormClosingEventHandler(Form2_FormClosing);
+            this.FormClosing += new FormClosingEventHandler(DashBoardForm_FormClosing);
         }
 
-        private void Form2_FormClosing(object sender, FormClosingEventArgs e)
+        private void DashBoardForm_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Application.Exit();
+            LoginForm f1 = new LoginForm();
+            f1.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Bạn chắc chắn muốn thoát");
-            Form1 f1 = new Form1();
+            LoginForm f1 = new LoginForm();
             f1.Show();
             this.Close();
         }
@@ -42,23 +41,14 @@ namespace Winform_Nhom20_BTL
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form3 f3 = new Form3();
+            SellForm f3 = new SellForm();
             f3.ShowDialog();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-
+            ManageForm f5 = new ManageForm();
+            f5.ShowDialog();
         }
     }
 }
