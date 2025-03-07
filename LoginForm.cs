@@ -50,5 +50,17 @@ namespace Winform_Nhom20_BTL
             MessageBox.Show("Bạn chắc chắn muốn thoát");
             Application.Exit();
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked == true) 
+            {
+                textBox2.UseSystemPasswordChar = false;
+            }
+            else
+            {
+                textBox2.UseSystemPasswordChar = true;
+            }
+        }
     }
 }
