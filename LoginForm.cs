@@ -47,8 +47,11 @@ namespace Winform_Nhom20_BTL
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Bạn chắc chắn muốn thoát");
-            Application.Exit();
+            DialogResult result = MessageBox.Show("Bạn chắc chắn muốn thoát", "Xác nhận", MessageBoxButtons.OKCancel ,MessageBoxIcon.Warning);
+            if (result == DialogResult.OK)
+            {
+                Application.Exit();
+            }
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)

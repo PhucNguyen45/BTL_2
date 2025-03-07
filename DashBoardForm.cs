@@ -28,10 +28,13 @@ namespace Winform_Nhom20_BTL
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Bạn chắc chắn muốn thoát");
-            LoginForm f1 = new LoginForm();
-            f1.Show();
-            this.Close();
+            DialogResult result = MessageBox.Show("Bạn chắc chắn muốn thoát", "Xác nhận", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+            if (result == DialogResult.OK)
+            {
+                LoginForm f1 = new LoginForm();
+                f1.Show();
+                this.Close();
+            }
         }
 
         private void timer1_Tick(object sender, EventArgs e)
