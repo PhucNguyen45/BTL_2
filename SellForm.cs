@@ -32,10 +32,13 @@ namespace Winform_Nhom20_BTL
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Xác nhận hoàn thành đơn vé");
+            MessageBox.Show("Xác nhận thông tin khách hàng");
             // đoạn này để lưu dữ liệu mật khẩu mới vào SQL Server Database
-            this.Close();
+            InsideTheaterForm insideTheaterForm = new InsideTheaterForm(this);
+            insideTheaterForm.ShowDialog();
         }
+
+
 
         private void button1_Click(object sender, EventArgs e)
         {

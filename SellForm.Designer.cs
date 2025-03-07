@@ -125,7 +125,7 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Location = new System.Drawing.Point(1, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(374, 614);
+            this.panel1.Size = new System.Drawing.Size(374, 589);
             this.panel1.TabIndex = 9;
             // 
             // textBox4
@@ -182,7 +182,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(11, 592);
+            this.label4.Location = new System.Drawing.Point(11, 570);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(35, 13);
             this.label4.TabIndex = 12;
@@ -191,7 +191,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(191, 524);
+            this.button2.Location = new System.Drawing.Point(191, 502);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(99, 57);
             this.button2.TabIndex = 11;
@@ -202,7 +202,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(48, 524);
+            this.button1.Location = new System.Drawing.Point(48, 502);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(99, 57);
             this.button1.TabIndex = 10;
@@ -223,7 +223,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.ClientSize = new System.Drawing.Size(1150, 614);
+            this.ClientSize = new System.Drawing.Size(374, 586);
             this.Controls.Add(this.panel1);
             this.Name = "SellForm";
             this.Text = "Cineer Vietnam Corp.";
