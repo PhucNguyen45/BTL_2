@@ -87,6 +87,9 @@
     <EmbeddedResource Include="DashBoardForm.resx">
       <DependentUpon>DashBoardForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ManageForm.resx">
+      <DependentUpon>ManageForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SellForm.resx">
       <DependentUpon>SellForm.cs</DependentUpon>
     </EmbeddedResource>

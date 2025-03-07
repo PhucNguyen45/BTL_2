@@ -16,5 +16,6 @@ namespace Winform_Nhom20_BTL
         {
             InitializeComponent();
         }
+
     }
 }

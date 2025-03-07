@@ -17,6 +17,8 @@ namespace Winform_Nhom20_BTL
         {
             InitializeComponent();
             this.sellForm = sellForm;
+
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -25,6 +27,16 @@ namespace Winform_Nhom20_BTL
             // đoạn này để lưu dữ liệu vào SQL Server Database
             this.Close();
             sellForm.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (button2.BackColor == Color.Yellow)
+            {
+                button2.BackColor = Color.White;
+            }
+            else
+                this.button2.BackColor = Color.Yellow;
         }
     }
 }
