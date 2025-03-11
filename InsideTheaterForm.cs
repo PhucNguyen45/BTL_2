@@ -17,8 +17,37 @@ namespace Winform_Nhom20_BTL
         {
             InitializeComponent();
             this.sellForm = sellForm;
+            InitializeButton();
+        }
 
+        private void InitializeButton()
+        {
+            for (int i = 2; i <= 40; i++)
+            {
+                Button button = this.Controls.Find("button" + i, true).FirstOrDefault() as Button;
 
+                if (button != null)
+                {
+                    button.Click += new EventHandler(button_Click);
+                }
+            }
+        }
+
+        private void button_Click(object sender, EventArgs e)
+        {
+            Button button = sender as Button;
+            if (button.BackColor == Color.White)
+            {
+                button.BackColor = Color.Yellow;
+            }
+            else
+            {
+                DialogResult result = MessageBox.Show("Bạn muốn bỏ chọn ghế này ?", "Xác nhận", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+                if (result == DialogResult.OK)
+                {
+                    button.BackColor = Color.White;
+                }
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -29,14 +58,5 @@ namespace Winform_Nhom20_BTL
             sellForm.Close();
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            if (button2.BackColor == Color.Yellow)
-            {
-                button2.BackColor = Color.White;
-            }
-            else
-                this.button2.BackColor = Color.Yellow;
-        }
     }
 }
