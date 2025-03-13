@@ -26,22 +26,32 @@ namespace Winform_Nhom20_BTL
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string user = textBox1.Text.Trim();
+            string user = textbox.Text.Trim();
             string pass = textBox2.Text.Trim();
-
-            if (user == "admin" && pass == "admin")
-            {
-                MessageBox.Show("Admin đăng nhập thành công");
-                DashBoardForm f2 = new DashBoardForm(user);
-                f2.Show();
-                this.Hide();
+            if (user == string.Empty) { 
+                textbox.Focus();
+                MessageBox.Show("Chưa nhập user name !");
+                return;
             }
+            if (pass == string.Empty)
+            {
+                textBox2.Focus();
+                MessageBox.Show("Chưa nhập pass !");
+                return;
+            }
+                if (user == "admin" && pass == "admin")
+                {
+                    MessageBox.Show("Admin đăng nhập thành công");
+                    DashBoardForm f2 = new DashBoardForm(user);
+                    f2.Show();
+                    this.Hide();
+                }
             else
             {
                 MessageBox.Show("Sai tên đăng nhập hoặc mật khẩu");
-                textBox1.Clear();
+                textbox.Clear();
                 textBox2.Clear();
-                textBox1.Focus();
+                textbox.Focus();
             }
         }
 
@@ -64,6 +74,26 @@ namespace Winform_Nhom20_BTL
             {
                 textBox2.UseSystemPasswordChar = true;
             }
+        }
+
+        private void LoginForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+         
         }
     }
 }

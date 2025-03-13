@@ -42,11 +42,15 @@ namespace Winform_Nhom20_BTL
             }
             else
             {
-                DialogResult result = MessageBox.Show("Bạn muốn bỏ chọn ghế này ?", "Xác nhận", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
-                if (result == DialogResult.OK)
-                {
-                    button.BackColor = Color.White;
-                }
+                //else
+                //{
+                //    //DialogResult result = MessageBox.Show("Bạn muốn bỏ chọn ghế này ?", "Xác nhận", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+                //    if (result == DialogResult.OK)
+                //    {
+                //        button.BackColor = Color.White;
+                //    }
+                //}
+                button.BackColor = Color.White;
             }
         }
 
@@ -58,5 +62,9 @@ namespace Winform_Nhom20_BTL
             sellForm.Close();
         }
 
+        private void button27_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

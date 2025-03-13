@@ -46,28 +46,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="InsideTheaterForm.cs">
+    <Compile Include="GUI\InsideTheaterForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="InsideTheaterForm.Designer.cs">
+    <Compile Include="GUI\InsideTheaterForm.Designer.cs">
       <DependentUpon>InsideTheaterForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoginForm.cs">
+    <Compile Include="GUI\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LoginForm.Designer.cs">
+    <Compile Include="GUI\LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="DashBoardForm.cs">
+    <Compile Include="GUI\DashBoardForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DashBoardForm.Designer.cs">
+    <Compile Include="GUI\DashBoardForm.Designer.cs">
       <DependentUpon>DashBoardForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ManageForm.cs">
+    <Compile Include="GUI\ManageForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ManageForm.Designer.cs">
+    <Compile Include="GUI\ManageForm.Designer.cs">
       <DependentUpon>ManageForm.cs</DependentUpon>
     </Compile>
     <Compile Include="SellForm.cs">
@@ -78,16 +78,16 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="InsideTheaterForm.resx">
+    <EmbeddedResource Include="GUI\InsideTheaterForm.resx">
       <DependentUpon>InsideTheaterForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LoginForm.resx">
+    <EmbeddedResource Include="GUI\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DashBoardForm.resx">
+    <EmbeddedResource Include="GUI\DashBoardForm.resx">
       <DependentUpon>DashBoardForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ManageForm.resx">
+    <EmbeddedResource Include="GUI\ManageForm.resx">
       <DependentUpon>ManageForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SellForm.resx">
@@ -114,6 +114,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BLL\" />
+    <Folder Include="Classes\" />
+    <Folder Include="DAL\" />
+    <Folder Include="DTO\" />
+    <Folder Include="Entity\" />
+    <Folder Include="RES\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
