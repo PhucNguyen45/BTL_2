@@ -8,6 +8,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Winform_Nhom20_BTL.GUI;
 
 namespace Winform_Nhom20_BTL
 {
@@ -17,41 +18,29 @@ namespace Winform_Nhom20_BTL
         {
             InitializeComponent();
             label1.Text = "Xin chào, " + UserName;
-            this.FormClosing += new FormClosingEventHandler(DashBoardForm_FormClosing);
-        }
-
-        private void DashBoardForm_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            LoginForm f1 = new LoginForm();
-            f1.Show();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            DialogResult result = MessageBox.Show("Bạn chắc chắn muốn thoát", "Xác nhận", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
-            if (result == DialogResult.OK)
-            {
-                LoginForm f1 = new LoginForm();
-                f1.Show();
-                this.Close();
-            }
-        }
-
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            this.label2.Text = DateTime.Now.ToString();
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             SellForm f3 = new SellForm();
-            f3.ShowDialog();
+            f3.Show();
+            this.Hide();
+            f3.FormClosed += (s, args) => this.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DialogResult results = MessageBox.Show("Bạn muốn thoát ?", "Xác nhận", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+            if (results == DialogResult.OK)
+            {
+                this.Close();
+            }
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            ManageForm f5 = new ManageForm();
-            f5.ShowDialog();
+
         }
     }
 }

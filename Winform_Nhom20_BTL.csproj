@@ -33,8 +33,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>packages\Guna.UI2.WinForms.2.0.4.7\lib\net48\Guna.UI2.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,11 +52,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GUI\InsideTheaterForm.cs">
-      <SubType>Form</SubType>
+    <Compile Include="GUI\Film_Chosing.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\InsideTheaterForm.Designer.cs">
-      <DependentUpon>InsideTheaterForm.cs</DependentUpon>
+    <Compile Include="GUI\Film_Chosing.Designer.cs">
+      <DependentUpon>Film_Chosing.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\LoginForm.cs">
       <SubType>Form</SubType>
@@ -64,22 +70,22 @@
     <Compile Include="GUI\DashBoardForm.Designer.cs">
       <DependentUpon>DashBoardForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\ManageForm.cs">
+    <Compile Include="GUI\SellForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI\ManageForm.Designer.cs">
-      <DependentUpon>ManageForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SellForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SellForm.Designer.cs">
+    <Compile Include="GUI\SellForm.Designer.cs">
       <DependentUpon>SellForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="GUI\InsideTheaterForm.resx">
-      <DependentUpon>InsideTheaterForm.cs</DependentUpon>
+    <Compile Include="GUI\Customer_Info.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Customer_Info.Designer.cs">
+      <DependentUpon>Customer_Info.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="GUI\Film_Chosing.resx">
+      <DependentUpon>Film_Chosing.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
@@ -87,10 +93,7 @@
     <EmbeddedResource Include="GUI\DashBoardForm.resx">
       <DependentUpon>DashBoardForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\ManageForm.resx">
-      <DependentUpon>ManageForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SellForm.resx">
+    <EmbeddedResource Include="GUI\SellForm.resx">
       <DependentUpon>SellForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -102,6 +105,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="GUI\Customer_Info.resx">
+      <DependentUpon>Customer_Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -26,32 +26,34 @@ namespace Winform_Nhom20_BTL
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string user = textbox.Text.Trim();
+            string user = textbox1.Text.Trim();
             string pass = textBox2.Text.Trim();
-            if (user == string.Empty) { 
-                textbox.Focus();
+            if (user == string.Empty) 
+            { 
                 MessageBox.Show("Chưa nhập user name !");
+                textbox1.Focus();
                 return;
             }
             if (pass == string.Empty)
             {
-                textBox2.Focus();
                 MessageBox.Show("Chưa nhập pass !");
+                textBox2.Focus();
                 return;
             }
-                if (user == "admin" && pass == "admin")
-                {
-                    MessageBox.Show("Admin đăng nhập thành công");
-                    DashBoardForm f2 = new DashBoardForm(user);
-                    f2.Show();
-                    this.Hide();
-                }
+            if (user == "admin" && pass == "admin")
+            {
+                DashBoardForm f2 = new DashBoardForm(user);
+                //f2.FormClosed += (s, args) => this.Show();
+                f2.Show();
+                this.Hide();
+                f2.FormClosed += (s, args) => this.Show();
+            }
             else
             {
                 MessageBox.Show("Sai tên đăng nhập hoặc mật khẩu");
-                textbox.Clear();
+                textbox1.Clear();
                 textBox2.Clear();
-                textbox.Focus();
+                textbox1.Focus();
             }
         }
 
@@ -74,26 +76,6 @@ namespace Winform_Nhom20_BTL
             {
                 textBox2.UseSystemPasswordChar = true;
             }
-        }
-
-        private void LoginForm_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-         
         }
     }
 }
