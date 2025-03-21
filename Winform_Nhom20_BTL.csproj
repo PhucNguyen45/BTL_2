@@ -52,11 +52,48 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClassColor.cs" />
     <Compile Include="GUI\Film_Chosing.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="GUI\Film_Chosing.Designer.cs">
       <DependentUpon>Film_Chosing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Frmdoanhthu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Frmdoanhthu.Designer.cs">
+      <DependentUpon>Frmdoanhthu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Frmdulieu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Frmdulieu.Designer.cs">
+      <DependentUpon>Frmdulieu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Frmkhachhang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Frmkhachhang.Designer.cs">
+      <DependentUpon>Frmkhachhang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Frmnhanvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Frmnhanvien.Designer.cs">
+      <DependentUpon>Frmnhanvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Frmtaikhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Frmtaikhoan.Designer.cs">
+      <DependentUpon>Frmtaikhoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\FrmQuanLy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\FrmQuanLy.Designer.cs">
+      <DependentUpon>FrmQuanLy.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\LoginForm.cs">
       <SubType>Form</SubType>
@@ -86,6 +123,24 @@
     </Compile>
     <EmbeddedResource Include="GUI\Film_Chosing.resx">
       <DependentUpon>Film_Chosing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Frmdoanhthu.resx">
+      <DependentUpon>Frmdoanhthu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Frmdulieu.resx">
+      <DependentUpon>Frmdulieu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Frmkhachhang.resx">
+      <DependentUpon>Frmkhachhang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Frmnhanvien.resx">
+      <DependentUpon>Frmnhanvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Frmtaikhoan.resx">
+      <DependentUpon>Frmtaikhoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\FrmQuanLy.resx">
+      <DependentUpon>FrmQuanLy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>

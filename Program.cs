@@ -20,7 +20,7 @@ namespace Winform_Nhom20_BTL
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LoginForm());
+            Application.Run(new FrmTrangchinh());
         }
 
         //static string connectionString = @"Server=RAZER;Database=csdlflim;User Id=sa;Password=123;";
