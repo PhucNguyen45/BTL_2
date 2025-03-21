@@ -7,6 +7,7 @@ using System.Data.SqlClient;
 using System.Data.SqlTypes;
 using System.Data.Sql;
 using System.Windows.Forms;
+using Winform_Nhom20_BTL.GUI;
 
 namespace Winform_Nhom20_BTL
 {

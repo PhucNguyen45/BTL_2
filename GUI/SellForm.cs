@@ -21,13 +21,35 @@ namespace Winform_Nhom20_BTL.GUI
             addUserControl(uc);
         }
 
-
         private void addUserControl(UserControl uc)
         {
             uc.Dock = DockStyle.Fill;
             panel2.Controls.Clear();
             panel2.Controls.Add(uc);
             uc.BringToFront();
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            Customer_Info uc = new Customer_Info();
+            addUserControl(uc);
+        }
+
+        private void guna2Button5_Click(object sender, EventArgs e)
+        {
+            Film_Chosing uc = new Film_Chosing();
+            addUserControl(uc);
+        }
+
+        private void guna2Button6_Click(object sender, EventArgs e)
+        {
+            Room_Chosing uc = new Room_Chosing();
+            addUserControl(uc);
+        }
+
+        private void guna2Button7_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
