@@ -17,7 +17,7 @@ namespace Winform_Nhom20_BTL.GUI
         public SellForm()
         {
             InitializeComponent();
-            Customer_Info uc = new Customer_Info();
+            Customer_Info uc = new Customer_Info(this);
             addUserControl(uc);
         }
 
@@ -31,8 +31,13 @@ namespace Winform_Nhom20_BTL.GUI
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            Customer_Info uc = new Customer_Info();
+            Customer_Info uc = new Customer_Info(this);
             addUserControl(uc);
+        }
+
+        public void TriggerGuna2Button5_Click(object sender, EventArgs e)
+        {
+            guna2Button5_Click(sender, e);
         }
 
         private void guna2Button5_Click(object sender, EventArgs e)
@@ -50,6 +55,14 @@ namespace Winform_Nhom20_BTL.GUI
         private void guna2Button7_Click(object sender, EventArgs e)
         {
 
+        }
+
+        public void UpdateReceipt_Info(string name, string cccd, string phone, string date)
+        {
+            label2.Text = "Khách hàng: " + name;
+            label3.Text = "Số CCCD: " + cccd;
+            label4.Text = "SĐT: " + phone;
+            label5.Text = "Ngày, tháng, năm sinh: " + date;
         }
     }
 }

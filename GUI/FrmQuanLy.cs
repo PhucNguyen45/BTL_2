@@ -125,5 +125,10 @@ namespace Winform_Nhom20_BTL
         {
             openchildform(new GUI.form.Frmtaikhoan(), sender);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

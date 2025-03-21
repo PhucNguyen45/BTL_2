@@ -26,7 +26,7 @@ namespace Winform_Nhom20_BTL.GUI
             }
         }
 
-        List<string> items = new List<string> { "Apple", "Banana", "Cherry", "Grape", "Mango", "Orange", "Pineapple" };
+        List<string> items = new List<string> { "Apple", "Banana", "Cherry", "Grape", "Mango", "Orange", "Pineapple" }; // Ví dụ danh sách các item
 
         private void SearchBox_TextChanged(object sender, EventArgs e)
         {
@@ -36,6 +36,7 @@ namespace Winform_Nhom20_BTL.GUI
             if (string.IsNullOrEmpty(keyword))
             {
                 SuggestionBox.Visible = false;
+                return;
             }
 
             if (suggestions.Count > 0)
@@ -47,7 +48,9 @@ namespace Winform_Nhom20_BTL.GUI
             {
                 SuggestionBox.Visible = false;
             }
-            
+
+
+
         }
     }
 }

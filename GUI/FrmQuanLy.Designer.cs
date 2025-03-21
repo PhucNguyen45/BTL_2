@@ -45,6 +45,7 @@ namespace Winform_Nhom20_BTL
             this.paneltitlebar = new System.Windows.Forms.Panel();
             this.labeltitle = new System.Windows.Forms.Label();
             this.paneldesktop = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.panelmenu.SuspendLayout();
             this.panellogo.SuspendLayout();
             this.paneltitlebar.SuspendLayout();
@@ -53,6 +54,7 @@ namespace Winform_Nhom20_BTL
             // panelmenu
             // 
             this.panelmenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.panelmenu.Controls.Add(this.button1);
             this.panelmenu.Controls.Add(this.buttontaikhoan);
             this.panelmenu.Controls.Add(this.buttonkhachhang);
             this.panelmenu.Controls.Add(this.buttonnhanvien);
@@ -61,9 +63,9 @@ namespace Winform_Nhom20_BTL
             this.panelmenu.Controls.Add(this.panellogo);
             this.panelmenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelmenu.Location = new System.Drawing.Point(0, 0);
-            this.panelmenu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelmenu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelmenu.Name = "panelmenu";
-            this.panelmenu.Size = new System.Drawing.Size(220, 349);
+            this.panelmenu.Size = new System.Drawing.Size(165, 518);
             this.panelmenu.TabIndex = 0;
             // 
             // buttontaikhoan
@@ -73,11 +75,11 @@ namespace Winform_Nhom20_BTL
             this.buttontaikhoan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttontaikhoan.ForeColor = System.Drawing.Color.White;
             this.buttontaikhoan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttontaikhoan.Location = new System.Drawing.Point(0, 256);
-            this.buttontaikhoan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttontaikhoan.Location = new System.Drawing.Point(0, 208);
+            this.buttontaikhoan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttontaikhoan.Name = "buttontaikhoan";
-            this.buttontaikhoan.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.buttontaikhoan.Size = new System.Drawing.Size(220, 48);
+            this.buttontaikhoan.Padding = new System.Windows.Forms.Padding(9, 0, 0, 0);
+            this.buttontaikhoan.Size = new System.Drawing.Size(165, 39);
             this.buttontaikhoan.TabIndex = 5;
             this.buttontaikhoan.Text = "Tài Khoản";
             this.buttontaikhoan.UseVisualStyleBackColor = true;
@@ -90,11 +92,11 @@ namespace Winform_Nhom20_BTL
             this.buttonkhachhang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonkhachhang.ForeColor = System.Drawing.Color.White;
             this.buttonkhachhang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonkhachhang.Location = new System.Drawing.Point(0, 208);
-            this.buttonkhachhang.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonkhachhang.Location = new System.Drawing.Point(0, 169);
+            this.buttonkhachhang.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonkhachhang.Name = "buttonkhachhang";
-            this.buttonkhachhang.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.buttonkhachhang.Size = new System.Drawing.Size(220, 48);
+            this.buttonkhachhang.Padding = new System.Windows.Forms.Padding(9, 0, 0, 0);
+            this.buttonkhachhang.Size = new System.Drawing.Size(165, 39);
             this.buttonkhachhang.TabIndex = 4;
             this.buttonkhachhang.Text = "Khách Hàng";
             this.buttonkhachhang.UseVisualStyleBackColor = true;
@@ -107,11 +109,11 @@ namespace Winform_Nhom20_BTL
             this.buttonnhanvien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonnhanvien.ForeColor = System.Drawing.Color.White;
             this.buttonnhanvien.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonnhanvien.Location = new System.Drawing.Point(0, 160);
-            this.buttonnhanvien.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonnhanvien.Location = new System.Drawing.Point(0, 130);
+            this.buttonnhanvien.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonnhanvien.Name = "buttonnhanvien";
-            this.buttonnhanvien.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.buttonnhanvien.Size = new System.Drawing.Size(220, 48);
+            this.buttonnhanvien.Padding = new System.Windows.Forms.Padding(9, 0, 0, 0);
+            this.buttonnhanvien.Size = new System.Drawing.Size(165, 39);
             this.buttonnhanvien.TabIndex = 3;
             this.buttonnhanvien.Text = "Nhân Viên";
             this.buttonnhanvien.UseVisualStyleBackColor = true;
@@ -124,11 +126,11 @@ namespace Winform_Nhom20_BTL
             this.buttondulieu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttondulieu.ForeColor = System.Drawing.Color.White;
             this.buttondulieu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttondulieu.Location = new System.Drawing.Point(0, 112);
-            this.buttondulieu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttondulieu.Location = new System.Drawing.Point(0, 91);
+            this.buttondulieu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttondulieu.Name = "buttondulieu";
-            this.buttondulieu.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.buttondulieu.Size = new System.Drawing.Size(220, 48);
+            this.buttondulieu.Padding = new System.Windows.Forms.Padding(9, 0, 0, 0);
+            this.buttondulieu.Size = new System.Drawing.Size(165, 39);
             this.buttondulieu.TabIndex = 2;
             this.buttondulieu.Text = "Dữ Liệu";
             this.buttondulieu.UseVisualStyleBackColor = true;
@@ -141,11 +143,11 @@ namespace Winform_Nhom20_BTL
             this.buttondoanhthu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttondoanhthu.ForeColor = System.Drawing.Color.White;
             this.buttondoanhthu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttondoanhthu.Location = new System.Drawing.Point(0, 64);
-            this.buttondoanhthu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttondoanhthu.Location = new System.Drawing.Point(0, 52);
+            this.buttondoanhthu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttondoanhthu.Name = "buttondoanhthu";
-            this.buttondoanhthu.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.buttondoanhthu.Size = new System.Drawing.Size(220, 48);
+            this.buttondoanhthu.Padding = new System.Windows.Forms.Padding(9, 0, 0, 0);
+            this.buttondoanhthu.Size = new System.Drawing.Size(165, 39);
             this.buttondoanhthu.TabIndex = 1;
             this.buttondoanhthu.Text = "Doanh Thu";
             this.buttondoanhthu.UseVisualStyleBackColor = true;
@@ -157,18 +159,19 @@ namespace Winform_Nhom20_BTL
             this.panellogo.Controls.Add(this.label1);
             this.panellogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panellogo.Location = new System.Drawing.Point(0, 0);
-            this.panellogo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panellogo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panellogo.Name = "panellogo";
-            this.panellogo.Size = new System.Drawing.Size(220, 64);
+            this.panellogo.Size = new System.Drawing.Size(165, 52);
             this.panellogo.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(79, 10);
+            this.label1.Location = new System.Drawing.Point(59, 8);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(48, 16);
+            this.label1.Size = new System.Drawing.Size(40, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "CINER";
             // 
@@ -177,10 +180,10 @@ namespace Winform_Nhom20_BTL
             this.paneltitlebar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(136)))));
             this.paneltitlebar.Controls.Add(this.labeltitle);
             this.paneltitlebar.Dock = System.Windows.Forms.DockStyle.Top;
-            this.paneltitlebar.Location = new System.Drawing.Point(220, 0);
-            this.paneltitlebar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.paneltitlebar.Location = new System.Drawing.Point(165, 0);
+            this.paneltitlebar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.paneltitlebar.Name = "paneltitlebar";
-            this.paneltitlebar.Size = new System.Drawing.Size(527, 64);
+            this.paneltitlebar.Size = new System.Drawing.Size(615, 52);
             this.paneltitlebar.TabIndex = 1;
             this.paneltitlebar.Paint += new System.Windows.Forms.PaintEventHandler(this.paneltitlebar_Paint);
             // 
@@ -190,33 +193,51 @@ namespace Winform_Nhom20_BTL
             this.labeltitle.AutoSize = true;
             this.labeltitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labeltitle.ForeColor = System.Drawing.Color.White;
-            this.labeltitle.Location = new System.Drawing.Point(207, 16);
+            this.labeltitle.Location = new System.Drawing.Point(265, 13);
+            this.labeltitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labeltitle.Name = "labeltitle";
-            this.labeltitle.Size = new System.Drawing.Size(95, 31);
+            this.labeltitle.Size = new System.Drawing.Size(78, 26);
             this.labeltitle.TabIndex = 0;
             this.labeltitle.Text = "HOME";
             // 
             // paneldesktop
             // 
             this.paneldesktop.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.paneldesktop.Location = new System.Drawing.Point(220, 64);
-            this.paneldesktop.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.paneldesktop.Location = new System.Drawing.Point(165, 52);
+            this.paneldesktop.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.paneldesktop.Name = "paneldesktop";
-            this.paneldesktop.Size = new System.Drawing.Size(527, 285);
+            this.paneldesktop.Size = new System.Drawing.Size(615, 466);
             this.paneldesktop.TabIndex = 2;
             this.paneldesktop.Paint += new System.Windows.Forms.PaintEventHandler(this.paneldesktop_Paint);
             // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(0, 467);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(165, 39);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "ĐĂNG XUẤT";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // FrmTrangchinh
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(747, 349);
+            this.ClientSize = new System.Drawing.Size(780, 518);
             this.Controls.Add(this.paneldesktop);
             this.Controls.Add(this.paneltitlebar);
             this.Controls.Add(this.panelmenu);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FrmTrangchinh";
             this.Text = "Form1";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panelmenu.ResumeLayout(false);
             this.panellogo.ResumeLayout(false);
             this.panellogo.PerformLayout();
@@ -239,5 +260,6 @@ namespace Winform_Nhom20_BTL
         private Label labeltitle;
         private Label label1;
         private Panel paneldesktop;
+        private Button button1;
     }
 }

@@ -34,26 +34,26 @@
             this.label1 = new System.Windows.Forms.Label();
             this.SearchBox = new System.Windows.Forms.TextBox();
             this.SuggestionBox = new System.Windows.Forms.ListBox();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
             // 
-            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.SearchBox);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(751, 28);
+            this.panel2.Size = new System.Drawing.Size(1014, 28);
             this.panel2.TabIndex = 26;
             // 
             // label1
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(512, 8);
+            this.label1.Location = new System.Drawing.Point(775, 8);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(55, 13);
             this.label1.TabIndex = 1;
@@ -62,7 +62,7 @@
             // SearchBox
             // 
             this.SearchBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.SearchBox.Location = new System.Drawing.Point(573, 5);
+            this.SearchBox.Location = new System.Drawing.Point(836, 5);
             this.SearchBox.Name = "SearchBox";
             this.SearchBox.Size = new System.Drawing.Size(175, 20);
             this.SearchBox.TabIndex = 0;
@@ -72,11 +72,23 @@
             // 
             this.SuggestionBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.SuggestionBox.FormattingEnabled = true;
-            this.SuggestionBox.Location = new System.Drawing.Point(573, 22);
+            this.SuggestionBox.Location = new System.Drawing.Point(836, 22);
             this.SuggestionBox.Name = "SuggestionBox";
             this.SuggestionBox.Size = new System.Drawing.Size(175, 108);
             this.SuggestionBox.TabIndex = 27;
             this.SuggestionBox.Visible = false;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.flowLayoutPanel1.AutoScroll = true;
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.MistyRose;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 28);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1014, 531);
+            this.flowLayoutPanel1.TabIndex = 28;
             // 
             // Film_Chosing
             // 
@@ -84,9 +96,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.Controls.Add(this.SuggestionBox);
+            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.panel2);
             this.Name = "Film_Chosing";
-            this.Size = new System.Drawing.Size(751, 486);
+            this.Size = new System.Drawing.Size(1014, 559);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);
@@ -99,5 +112,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox SearchBox;
         private System.Windows.Forms.ListBox SuggestionBox;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
     }
 }

@@ -104,40 +104,40 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClassColor.cs" />
-    <Compile Include="GUI\Film_Chosing.cs">
+    <Compile Include="GUI\UCs_Main\Film_Chosing.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\Film_Chosing.Designer.cs">
+    <Compile Include="GUI\UCs_Main\Film_Chosing.Designer.cs">
       <DependentUpon>Film_Chosing.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\Forms\Frmdoanhthu.cs">
+    <Compile Include="GUI\FormsQL\Frmdoanhthu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI\Forms\Frmdoanhthu.Designer.cs">
+    <Compile Include="GUI\FormsQL\Frmdoanhthu.Designer.cs">
       <DependentUpon>Frmdoanhthu.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\Forms\Frmdulieu.cs">
+    <Compile Include="GUI\FormsQL\Frmdulieu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI\Forms\Frmdulieu.Designer.cs">
+    <Compile Include="GUI\FormsQL\Frmdulieu.Designer.cs">
       <DependentUpon>Frmdulieu.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\Forms\Frmkhachhang.cs">
+    <Compile Include="GUI\FormsQL\Frmkhachhang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI\Forms\Frmkhachhang.Designer.cs">
+    <Compile Include="GUI\FormsQL\Frmkhachhang.Designer.cs">
       <DependentUpon>Frmkhachhang.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\Forms\Frmnhanvien.cs">
+    <Compile Include="GUI\FormsQL\Frmnhanvien.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI\Forms\Frmnhanvien.Designer.cs">
+    <Compile Include="GUI\FormsQL\Frmnhanvien.Designer.cs">
       <DependentUpon>Frmnhanvien.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\Forms\Frmtaikhoan.cs">
+    <Compile Include="GUI\FormsQL\Frmtaikhoan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI\Forms\Frmtaikhoan.Designer.cs">
+    <Compile Include="GUI\FormsQL\Frmtaikhoan.Designer.cs">
       <DependentUpon>Frmtaikhoan.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\FrmQuanLy.cs">
@@ -158,16 +158,16 @@
     <Compile Include="GUI\DashBoardForm.Designer.cs">
       <DependentUpon>DashBoardForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\Room_Chosing.cs">
+    <Compile Include="GUI\UCs_Main\Room_Chosing.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\Room_Chosing.Designer.cs">
+    <Compile Include="GUI\UCs_Main\Room_Chosing.Designer.cs">
       <DependentUpon>Room_Chosing.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\Seat_Chosing.cs">
+    <Compile Include="GUI\UCs_Main\Seat_Chosing.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\Seat_Chosing.Designer.cs">
+    <Compile Include="GUI\UCs_Main\Seat_Chosing.Designer.cs">
       <DependentUpon>Seat_Chosing.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\SellForm.cs">
@@ -178,28 +178,28 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="GUI\Customer_Info.cs">
+    <Compile Include="GUI\UCs_Main\Customer_Info.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\Customer_Info.Designer.cs">
+    <Compile Include="GUI\UCs_Main\Customer_Info.Designer.cs">
       <DependentUpon>Customer_Info.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="GUI\Film_Chosing.resx">
+    <EmbeddedResource Include="GUI\UCs_Main\Film_Chosing.resx">
       <DependentUpon>Film_Chosing.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\Forms\Frmdoanhthu.resx">
+    <EmbeddedResource Include="GUI\FormsQL\Frmdoanhthu.resx">
       <DependentUpon>Frmdoanhthu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\Forms\Frmdulieu.resx">
+    <EmbeddedResource Include="GUI\FormsQL\Frmdulieu.resx">
       <DependentUpon>Frmdulieu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\Forms\Frmkhachhang.resx">
+    <EmbeddedResource Include="GUI\FormsQL\Frmkhachhang.resx">
       <DependentUpon>Frmkhachhang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\Forms\Frmnhanvien.resx">
+    <EmbeddedResource Include="GUI\FormsQL\Frmnhanvien.resx">
       <DependentUpon>Frmnhanvien.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\Forms\Frmtaikhoan.resx">
+    <EmbeddedResource Include="GUI\FormsQL\Frmtaikhoan.resx">
       <DependentUpon>Frmtaikhoan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\FrmQuanLy.resx">
@@ -211,10 +211,10 @@
     <EmbeddedResource Include="GUI\DashBoardForm.resx">
       <DependentUpon>DashBoardForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\Room_Chosing.resx">
+    <EmbeddedResource Include="GUI\UCs_Main\Room_Chosing.resx">
       <DependentUpon>Room_Chosing.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\Seat_Chosing.resx">
+    <EmbeddedResource Include="GUI\UCs_Main\Seat_Chosing.resx">
       <DependentUpon>Seat_Chosing.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\SellForm.resx">
@@ -229,7 +229,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="GUI\Customer_Info.resx">
+    <EmbeddedResource Include="GUI\UCs_Main\Customer_Info.resx">
       <DependentUpon>Customer_Info.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
