@@ -46,9 +46,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(8, 349);
+            this.label2.Location = new System.Drawing.Point(11, 430);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 16);
+            this.label2.Size = new System.Drawing.Size(53, 20);
             this.label2.TabIndex = 4;
             this.label2.Text = "label2";
             // 
@@ -56,18 +57,20 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(8, 117);
+            this.label1.Location = new System.Drawing.Point(11, 144);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 16);
+            this.label1.Size = new System.Drawing.Size(53, 20);
             this.label1.TabIndex = 3;
             this.label1.Text = "label1";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(109, 21);
+            this.pictureBox1.Location = new System.Drawing.Point(145, 26);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(103, 90);
+            this.pictureBox1.Size = new System.Drawing.Size(137, 111);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -76,9 +79,10 @@
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(127, 375);
+            this.button1.Location = new System.Drawing.Point(169, 462);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(85, 28);
+            this.button1.Size = new System.Drawing.Size(113, 34);
             this.button1.TabIndex = 0;
             this.button1.Text = "Đăng xuất";
             this.button1.UseVisualStyleBackColor = true;
@@ -91,9 +95,10 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(72, 151);
+            this.button2.Location = new System.Drawing.Point(96, 186);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(190, 82);
+            this.button2.Size = new System.Drawing.Size(253, 101);
             this.button2.TabIndex = 7;
             this.button2.Text = "Thêm đơn";
             this.button2.UseVisualStyleBackColor = true;
@@ -102,9 +107,10 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(72, 254);
+            this.button3.Location = new System.Drawing.Point(96, 313);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(190, 82);
+            this.button3.Size = new System.Drawing.Size(253, 101);
             this.button3.TabIndex = 8;
             this.button3.Text = "Quản lý đơn";
             this.button3.UseVisualStyleBackColor = true;
@@ -121,19 +127,22 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(65, 39);
+            this.panel1.Location = new System.Drawing.Point(87, 48);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(340, 435);
+            this.panel1.Size = new System.Drawing.Size(453, 535);
             this.panel1.TabIndex = 0;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // DashBoardForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.ClientSize = new System.Drawing.Size(498, 513);
+            this.ClientSize = new System.Drawing.Size(664, 631);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "DashBoardForm";
             this.Text = "Cineer Vietnam Corp.";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

@@ -77,5 +77,10 @@ namespace Winform_Nhom20_BTL
                 textBox2.UseSystemPasswordChar = true;
             }
         }
+
+        private void textbox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
