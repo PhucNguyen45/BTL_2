@@ -12,9 +12,12 @@ namespace Winform_Nhom20_BTL.GUI
 {
     public partial class Film_Chosing: UserControl
     {
-        public Film_Chosing()
+        private SellForm sellForm;
+
+        public Film_Chosing(SellForm sellForm)
         {
             InitializeComponent();
+            this.sellForm = sellForm;
         }
 
         private void SuggestionBox_Click(object sender, EventArgs e)
@@ -51,6 +54,24 @@ namespace Winform_Nhom20_BTL.GUI
 
 
 
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Đã thêm phim");
+            
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Đã thêm phim");
+            
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Đã thêm phim");
+            
         }
     }
 }
