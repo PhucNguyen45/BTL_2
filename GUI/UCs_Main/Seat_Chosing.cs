@@ -12,9 +12,20 @@ namespace Winform_Nhom20_BTL.GUI
 {
     public partial class Seat_Chosing: UserControl
     {
-        public Seat_Chosing()
+        private SellForm sellForm;
+        private string filmName;
+
+        public Seat_Chosing(SellForm sellForm, string filmName)
         {
             InitializeComponent();
+            this.sellForm = sellForm;
+            this.filmName = filmName;
+            Film_nameLabel.Text = filmName;
+        }
+
+        private void guna2ImageButton1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

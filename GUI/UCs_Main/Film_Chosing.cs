@@ -58,8 +58,11 @@ namespace Winform_Nhom20_BTL.GUI
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
+            // phải có database phim thì mới add tên phim được
+            string film_name = "Tangled";
+            sellForm.UpdateReceipt_Film(film_name);
             MessageBox.Show("Đã thêm phim");
-            
+            sellForm.Film_Save_Click(sender, e);
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)

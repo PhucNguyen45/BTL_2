@@ -12,14 +12,20 @@ namespace Winform_Nhom20_BTL.GUI
 {
     public partial class Room_Chosing: UserControl
     {
-        public Room_Chosing()
+        private string filmName;
+        private SellForm sellForm;
+        public Room_Chosing(string filmName, SellForm sellForm)
         {
             InitializeComponent();
+            this.filmName = filmName;
+            label2.Text = "Phim đang xem: " + filmName;
+            this.sellForm = sellForm;
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-
+            MessageBox.Show("You clicked on a room");
+            sellForm.Room_Save_Click(sender, e);
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
@@ -31,11 +37,6 @@ namespace Winform_Nhom20_BTL.GUI
             {
                 // Show all rooms
             }
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)

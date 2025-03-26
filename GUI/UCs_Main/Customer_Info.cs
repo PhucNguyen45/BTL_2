@@ -29,6 +29,8 @@ namespace Winform_Nhom20_BTL.UserControls
             string date = dateTimePicker1.Value.ToString("dd/MM/yyyy");
 
             sellForm.UpdateReceipt_Info(name, cccd, phone, date);
+
+            sellForm.Customer_Save_Click(sender, e);
         }
     }
 }

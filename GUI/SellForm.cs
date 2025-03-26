@@ -36,15 +36,57 @@ namespace Winform_Nhom20_BTL.GUI
             addUserControl(uc);
         }
 
+        public void Customer_Save_Click(object sender, EventArgs e)
+        {
+            guna2Button1.Checked = false;
+            guna2Button5.Checked = true;
+            Film_Chosing uc = new Film_Chosing(this);
+            addUserControl(uc);
+        }
+
         private void guna2Button5_Click(object sender, EventArgs e)
         {
             Film_Chosing uc = new Film_Chosing(this);
             addUserControl(uc);
         }
 
+        public void Film_Save_Click(object sender, EventArgs e)
+        {
+            guna2Button5.Checked = false;
+            guna2Button6.Checked = true;
+            string filmName = label6.Text.Replace("Phim: ", "");
+            Room_Chosing uc = new Room_Chosing(filmName, this);
+            addUserControl(uc);
+        }
+
         private void guna2Button6_Click(object sender, EventArgs e)
         {
-            Room_Chosing uc = new Room_Chosing(/*this*/);
+            string filmName = label6.Text.Replace("Phim: ", "");
+            Room_Chosing uc = new Room_Chosing(filmName, this);
+            addUserControl(uc);
+        }
+
+        public void Room_Save_Click(object sender, EventArgs e)
+        {
+            guna2Button6.Checked = false;
+            guna2Button7.Checked = true;
+            string filmName = label6.Text.Replace("Phim: ", "");
+            Seat_Chosing uc = new Seat_Chosing(this, filmName);
+            addUserControl(uc);
+        }
+
+        private void guna2Button7_Click(object sender, EventArgs e)
+        {
+            string filmName = label6.Text.Replace("Phim: ", "");
+            Seat_Chosing uc = new Seat_Chosing(this, filmName);
+            addUserControl(uc);
+        }
+
+        public void Seat_Save_Click(object sender, EventArgs e)
+        {
+            guna2Button7.Checked = false;
+            guna2Button2.Checked = true;
+            Service uc = new Service(/*this*/);
             addUserControl(uc);
         }
 
@@ -52,11 +94,6 @@ namespace Winform_Nhom20_BTL.GUI
         {
             Service uc = new Service(/*this*/);
             addUserControl(uc);
-        }
-
-        private void guna2Button7_Click(object sender, EventArgs e)
-        {
-
         }
 
         public void UpdateReceipt_Info(string name, string cccd, string phone, string date)
