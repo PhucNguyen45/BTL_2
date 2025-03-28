@@ -28,167 +28,278 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SellForm));
+            this.panelmenu = new System.Windows.Forms.Panel();
+            this.iconButton4 = new FontAwesome.Sharp.IconButton();
+            this.btnchongoi = new FontAwesome.Sharp.IconButton();
+            this.btnphim = new FontAwesome.Sharp.IconButton();
+            this.btnkhachhang = new FontAwesome.Sharp.IconButton();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnmenu = new FontAwesome.Sharp.IconButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.paneltitelbar = new System.Windows.Forms.Panel();
+            this.btnminimize = new FontAwesome.Sharp.IconButton();
+            this.btnmaxmize = new FontAwesome.Sharp.IconButton();
+            this.iconButton5 = new FontAwesome.Sharp.IconButton();
+            this.paneldeskop = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panelmenu.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.paneltitelbar.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button1
+            // panelmenu
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Location = new System.Drawing.Point(812, 564);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(152, 53);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "THOÁT";
-            this.button1.UseVisualStyleBackColor = true;
+            this.panelmenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(102)))), ((int)(((byte)(244)))));
+            this.panelmenu.Controls.Add(this.iconButton4);
+            this.panelmenu.Controls.Add(this.btnchongoi);
+            this.panelmenu.Controls.Add(this.btnphim);
+            this.panelmenu.Controls.Add(this.btnkhachhang);
+            this.panelmenu.Controls.Add(this.panel1);
+            this.panelmenu.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panelmenu.Location = new System.Drawing.Point(0, 0);
+            this.panelmenu.Name = "panelmenu";
+            this.panelmenu.Size = new System.Drawing.Size(230, 595);
+            this.panelmenu.TabIndex = 0;
+            // 
+            // iconButton4
+            // 
+            this.iconButton4.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.iconButton4.FlatAppearance.BorderSize = 0;
+            this.iconButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton4.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.iconButton4.IconChar = FontAwesome.Sharp.IconChar.SignOut;
+            this.iconButton4.IconColor = System.Drawing.Color.White;
+            this.iconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton4.Location = new System.Drawing.Point(0, 541);
+            this.iconButton4.Name = "iconButton4";
+            this.iconButton4.Padding = new System.Windows.Forms.Padding(10, 0, 0, 15);
+            this.iconButton4.Size = new System.Drawing.Size(230, 54);
+            this.iconButton4.TabIndex = 4;
+            this.iconButton4.Tag = "thoat";
+            this.iconButton4.Text = "thoat";
+            this.iconButton4.UseVisualStyleBackColor = true;
+            // 
+            // btnchongoi
+            // 
+            this.btnchongoi.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnchongoi.FlatAppearance.BorderSize = 0;
+            this.btnchongoi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnchongoi.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnchongoi.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnchongoi.IconChar = FontAwesome.Sharp.IconChar.FaceTired;
+            this.btnchongoi.IconColor = System.Drawing.Color.White;
+            this.btnchongoi.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnchongoi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnchongoi.Location = new System.Drawing.Point(0, 208);
+            this.btnchongoi.Name = "btnchongoi";
+            this.btnchongoi.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnchongoi.Size = new System.Drawing.Size(230, 54);
+            this.btnchongoi.TabIndex = 3;
+            this.btnchongoi.Tag = "chongoi";
+            this.btnchongoi.Text = "cho ngoi";
+            this.btnchongoi.UseVisualStyleBackColor = true;
+            // 
+            // btnphim
+            // 
+            this.btnphim.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnphim.FlatAppearance.BorderSize = 0;
+            this.btnphim.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnphim.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnphim.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnphim.IconChar = FontAwesome.Sharp.IconChar.Pager;
+            this.btnphim.IconColor = System.Drawing.Color.White;
+            this.btnphim.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnphim.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnphim.Location = new System.Drawing.Point(0, 154);
+            this.btnphim.Name = "btnphim";
+            this.btnphim.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnphim.Size = new System.Drawing.Size(230, 54);
+            this.btnphim.TabIndex = 2;
+            this.btnphim.Tag = "phim";
+            this.btnphim.Text = "phim";
+            this.btnphim.UseVisualStyleBackColor = true;
+            // 
+            // btnkhachhang
+            // 
+            this.btnkhachhang.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnkhachhang.FlatAppearance.BorderSize = 0;
+            this.btnkhachhang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnkhachhang.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnkhachhang.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnkhachhang.IconChar = FontAwesome.Sharp.IconChar.Elevator;
+            this.btnkhachhang.IconColor = System.Drawing.Color.White;
+            this.btnkhachhang.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnkhachhang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnkhachhang.Location = new System.Drawing.Point(0, 100);
+            this.btnkhachhang.Name = "btnkhachhang";
+            this.btnkhachhang.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnkhachhang.Size = new System.Drawing.Size(230, 54);
+            this.btnkhachhang.TabIndex = 1;
+            this.btnkhachhang.Tag = "Khách hàng";
+            this.btnkhachhang.Text = "Khách hàng";
+            this.btnkhachhang.UseVisualStyleBackColor = true;
+            this.btnkhachhang.Click += new System.EventHandler(this.btnkhachhang_Click);
             // 
             // panel1
             // 
-            this.panel1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.guna2Button7);
-            this.panel1.Controls.Add(this.guna2Button5);
-            this.panel1.Controls.Add(this.guna2Button6);
-            this.panel1.Controls.Add(this.guna2Button1);
-            this.panel1.Location = new System.Drawing.Point(1, 0);
+            this.panel1.Controls.Add(this.btnmenu);
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1123, 65);
-            this.panel1.TabIndex = 2;
+            this.panel1.Size = new System.Drawing.Size(230, 100);
+            this.panel1.TabIndex = 0;
             // 
-            // guna2Button7
+            // btnmenu
             // 
-            this.guna2Button7.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.guna2Button7.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.guna2Button7.CheckedState.CustomBorderColor = System.Drawing.Color.Red;
-            this.guna2Button7.CustomBorderThickness = new System.Windows.Forms.Padding(0, 0, 0, 4);
-            this.guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button7.FillColor = System.Drawing.Color.White;
-            this.guna2Button7.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button7.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button7.HoverState.CustomBorderColor = System.Drawing.Color.Red;
-            this.guna2Button7.Location = new System.Drawing.Point(504, 0);
-            this.guna2Button7.Name = "guna2Button7";
-            this.guna2Button7.Size = new System.Drawing.Size(162, 65);
-            this.guna2Button7.TabIndex = 6;
-            this.guna2Button7.Text = "CHỌN GHẾ";
+            this.btnmenu.FlatAppearance.BorderSize = 0;
+            this.btnmenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnmenu.IconChar = FontAwesome.Sharp.IconChar.List;
+            this.btnmenu.IconColor = System.Drawing.Color.White;
+            this.btnmenu.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnmenu.Location = new System.Drawing.Point(170, 3);
+            this.btnmenu.Name = "btnmenu";
+            this.btnmenu.Size = new System.Drawing.Size(60, 60);
+            this.btnmenu.TabIndex = 5;
+            this.btnmenu.UseVisualStyleBackColor = true;
+            this.btnmenu.Click += new System.EventHandler(this.iconButton6_Click_1);
             // 
-            // guna2Button5
+            // pictureBox1
             // 
-            this.guna2Button5.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.guna2Button5.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.guna2Button5.CheckedState.CustomBorderColor = System.Drawing.Color.Red;
-            this.guna2Button5.CustomBorderThickness = new System.Windows.Forms.Padding(0, 0, 0, 4);
-            this.guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button5.FillColor = System.Drawing.Color.White;
-            this.guna2Button5.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button5.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button5.HoverState.CustomBorderColor = System.Drawing.Color.Red;
-            this.guna2Button5.Location = new System.Drawing.Point(168, 0);
-            this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.Size = new System.Drawing.Size(162, 65);
-            this.guna2Button5.TabIndex = 4;
-            this.guna2Button5.Text = "CHỌN PHIM";
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(230, 100);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
-            // guna2Button6
+            // paneltitelbar
             // 
-            this.guna2Button6.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.guna2Button6.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.guna2Button6.CheckedState.CustomBorderColor = System.Drawing.Color.Red;
-            this.guna2Button6.CustomBorderThickness = new System.Windows.Forms.Padding(0, 0, 0, 4);
-            this.guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button6.FillColor = System.Drawing.Color.White;
-            this.guna2Button6.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button6.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button6.HoverState.CustomBorderColor = System.Drawing.Color.Red;
-            this.guna2Button6.Location = new System.Drawing.Point(336, 0);
-            this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.Size = new System.Drawing.Size(162, 65);
-            this.guna2Button6.TabIndex = 5;
-            this.guna2Button6.Text = "CHỌN PHÒNG CHIẾU";
+            this.paneltitelbar.BackColor = System.Drawing.Color.White;
+            this.paneltitelbar.Controls.Add(this.label1);
+            this.paneltitelbar.Controls.Add(this.btnminimize);
+            this.paneltitelbar.Controls.Add(this.btnmaxmize);
+            this.paneltitelbar.Controls.Add(this.iconButton5);
+            this.paneltitelbar.Dock = System.Windows.Forms.DockStyle.Top;
+            this.paneltitelbar.Location = new System.Drawing.Point(230, 0);
+            this.paneltitelbar.Name = "paneltitelbar";
+            this.paneltitelbar.Size = new System.Drawing.Size(928, 63);
+            this.paneltitelbar.TabIndex = 1;
+            this.paneltitelbar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.paneltitelbar_MouseDown);
             // 
-            // guna2Button1
+            // btnminimize
             // 
-            this.guna2Button1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.guna2Button1.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.guna2Button1.Checked = true;
-            this.guna2Button1.CheckedState.CustomBorderColor = System.Drawing.Color.Red;
-            this.guna2Button1.CustomBorderThickness = new System.Windows.Forms.Padding(0, 0, 0, 4);
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.White;
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button1.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button1.HoverState.CustomBorderColor = System.Drawing.Color.Red;
-            this.guna2Button1.Location = new System.Drawing.Point(0, 0);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(162, 65);
-            this.guna2Button1.TabIndex = 0;
-            this.guna2Button1.Text = "THÔNG TIN KHÁCH HÀNG";
+            this.btnminimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnminimize.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.btnminimize.CausesValidation = false;
+            this.btnminimize.FlatAppearance.BorderSize = 0;
+            this.btnminimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnminimize.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.btnminimize.IconColor = System.Drawing.Color.Black;
+            this.btnminimize.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnminimize.Location = new System.Drawing.Point(787, 0);
+            this.btnminimize.Name = "btnminimize";
+            this.btnminimize.Size = new System.Drawing.Size(50, 28);
+            this.btnminimize.TabIndex = 1;
+            this.btnminimize.UseVisualStyleBackColor = false;
+            this.btnminimize.Click += new System.EventHandler(this.btnminimize_Click);
             // 
-            // panel2
+            // btnmaxmize
             // 
-            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel2.Location = new System.Drawing.Point(12, 71);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(751, 486);
-            this.panel2.TabIndex = 4;
+            this.btnmaxmize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnmaxmize.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnmaxmize.CausesValidation = false;
+            this.btnmaxmize.FlatAppearance.BorderSize = 0;
+            this.btnmaxmize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnmaxmize.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.btnmaxmize.IconColor = System.Drawing.Color.Black;
+            this.btnmaxmize.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnmaxmize.Location = new System.Drawing.Point(832, 0);
+            this.btnmaxmize.Name = "btnmaxmize";
+            this.btnmaxmize.Size = new System.Drawing.Size(50, 28);
+            this.btnmaxmize.TabIndex = 1;
+            this.btnmaxmize.UseVisualStyleBackColor = false;
+            this.btnmaxmize.Click += new System.EventHandler(this.iconButton6_Click);
             // 
-            // button2
+            // iconButton5
             // 
-            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button2.Location = new System.Drawing.Point(970, 564);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(152, 53);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "XÁC NHẬN";
-            this.button2.UseVisualStyleBackColor = true;
+            this.iconButton5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.iconButton5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.iconButton5.CausesValidation = false;
+            this.iconButton5.FlatAppearance.BorderSize = 0;
+            this.iconButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton5.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.iconButton5.IconColor = System.Drawing.Color.Black;
+            this.iconButton5.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton5.Location = new System.Drawing.Point(878, 0);
+            this.iconButton5.Name = "iconButton5";
+            this.iconButton5.Size = new System.Drawing.Size(50, 28);
+            this.iconButton5.TabIndex = 0;
+            this.iconButton5.UseVisualStyleBackColor = false;
+            this.iconButton5.Click += new System.EventHandler(this.iconButton5_Click);
+            // 
+            // paneldeskop
+            // 
+            this.paneldeskop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(252)))));
+            this.paneldeskop.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.paneldeskop.Location = new System.Drawing.Point(230, 63);
+            this.paneldeskop.Name = "paneldeskop";
+            this.paneldeskop.Size = new System.Drawing.Size(928, 532);
+            this.paneldeskop.TabIndex = 2;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(21, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(119, 39);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "HOME";
             // 
             // SellForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1123, 629);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.panel1);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(251)))), ((int)(((byte)(252)))));
+            this.ClientSize = new System.Drawing.Size(1158, 595);
+            this.Controls.Add(this.paneldeskop);
+            this.Controls.Add(this.paneltitelbar);
+            this.Controls.Add(this.panelmenu);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "SellForm";
             this.Text = "Cineer Vietnam Corp.";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Resize += new System.EventHandler(this.SellForm_Resize);
+            this.panelmenu.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.paneltitelbar.ResumeLayout(false);
+            this.paneltitelbar.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Panel panelmenu;
+        private System.Windows.Forms.Panel paneltitelbar;
+        private System.Windows.Forms.Panel paneldeskop;
         private System.Windows.Forms.Panel panel1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button7;
-        private Guna.UI2.WinForms.Guna2Button guna2Button5;
-        private Guna.UI2.WinForms.Guna2Button guna2Button6;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private FontAwesome.Sharp.IconButton btnkhachhang;
+        private FontAwesome.Sharp.IconButton iconButton4;
+        private FontAwesome.Sharp.IconButton btnchongoi;
+        private FontAwesome.Sharp.IconButton btnphim;
+        private FontAwesome.Sharp.IconButton iconButton5;
+        private FontAwesome.Sharp.IconButton btnmaxmize;
+        private FontAwesome.Sharp.IconButton btnminimize;
+        private FontAwesome.Sharp.IconButton btnmenu;
+        private System.Windows.Forms.Label label1;
     }
 }

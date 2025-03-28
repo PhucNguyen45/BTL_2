@@ -34,6 +34,7 @@ namespace Winform_Nhom20_BTL
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmTrangchinh));
             this.panelmenu = new System.Windows.Forms.Panel();
             this.buttontaikhoan = new System.Windows.Forms.Button();
             this.buttonkhachhang = new System.Windows.Forms.Button();
@@ -45,6 +46,8 @@ namespace Winform_Nhom20_BTL
             this.paneltitlebar = new System.Windows.Forms.Panel();
             this.labeltitle = new System.Windows.Forms.Label();
             this.paneldesktop = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.buttonphim = new System.Windows.Forms.Button();
             this.panelmenu.SuspendLayout();
             this.panellogo.SuspendLayout();
             this.paneltitlebar.SuspendLayout();
@@ -53,6 +56,8 @@ namespace Winform_Nhom20_BTL
             // panelmenu
             // 
             this.panelmenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.panelmenu.Controls.Add(this.buttonphim);
+            this.panelmenu.Controls.Add(this.button1);
             this.panelmenu.Controls.Add(this.buttontaikhoan);
             this.panelmenu.Controls.Add(this.buttonkhachhang);
             this.panelmenu.Controls.Add(this.buttonnhanvien);
@@ -63,7 +68,7 @@ namespace Winform_Nhom20_BTL
             this.panelmenu.Location = new System.Drawing.Point(0, 0);
             this.panelmenu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelmenu.Name = "panelmenu";
-            this.panelmenu.Size = new System.Drawing.Size(220, 349);
+            this.panelmenu.Size = new System.Drawing.Size(220, 519);
             this.panelmenu.TabIndex = 0;
             // 
             // buttontaikhoan
@@ -71,7 +76,9 @@ namespace Winform_Nhom20_BTL
             this.buttontaikhoan.Dock = System.Windows.Forms.DockStyle.Top;
             this.buttontaikhoan.FlatAppearance.BorderSize = 0;
             this.buttontaikhoan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttontaikhoan.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttontaikhoan.ForeColor = System.Drawing.Color.White;
+            this.buttontaikhoan.Image = ((System.Drawing.Image)(resources.GetObject("buttontaikhoan.Image")));
             this.buttontaikhoan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttontaikhoan.Location = new System.Drawing.Point(0, 256);
             this.buttontaikhoan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -88,7 +95,9 @@ namespace Winform_Nhom20_BTL
             this.buttonkhachhang.Dock = System.Windows.Forms.DockStyle.Top;
             this.buttonkhachhang.FlatAppearance.BorderSize = 0;
             this.buttonkhachhang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonkhachhang.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonkhachhang.ForeColor = System.Drawing.Color.White;
+            this.buttonkhachhang.Image = ((System.Drawing.Image)(resources.GetObject("buttonkhachhang.Image")));
             this.buttonkhachhang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonkhachhang.Location = new System.Drawing.Point(0, 208);
             this.buttonkhachhang.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -105,7 +114,9 @@ namespace Winform_Nhom20_BTL
             this.buttonnhanvien.Dock = System.Windows.Forms.DockStyle.Top;
             this.buttonnhanvien.FlatAppearance.BorderSize = 0;
             this.buttonnhanvien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonnhanvien.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonnhanvien.ForeColor = System.Drawing.Color.White;
+            this.buttonnhanvien.Image = ((System.Drawing.Image)(resources.GetObject("buttonnhanvien.Image")));
             this.buttonnhanvien.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonnhanvien.Location = new System.Drawing.Point(0, 160);
             this.buttonnhanvien.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -122,7 +133,9 @@ namespace Winform_Nhom20_BTL
             this.buttondulieu.Dock = System.Windows.Forms.DockStyle.Top;
             this.buttondulieu.FlatAppearance.BorderSize = 0;
             this.buttondulieu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttondulieu.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttondulieu.ForeColor = System.Drawing.Color.White;
+            this.buttondulieu.Image = ((System.Drawing.Image)(resources.GetObject("buttondulieu.Image")));
             this.buttondulieu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttondulieu.Location = new System.Drawing.Point(0, 112);
             this.buttondulieu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -139,7 +152,9 @@ namespace Winform_Nhom20_BTL
             this.buttondoanhthu.Dock = System.Windows.Forms.DockStyle.Top;
             this.buttondoanhthu.FlatAppearance.BorderSize = 0;
             this.buttondoanhthu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttondoanhthu.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttondoanhthu.ForeColor = System.Drawing.Color.White;
+            this.buttondoanhthu.Image = ((System.Drawing.Image)(resources.GetObject("buttondoanhthu.Image")));
             this.buttondoanhthu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttondoanhthu.Location = new System.Drawing.Point(0, 64);
             this.buttondoanhthu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -165,12 +180,13 @@ namespace Winform_Nhom20_BTL
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(79, 10);
+            this.label1.Location = new System.Drawing.Point(21, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(48, 16);
+            this.label1.Size = new System.Drawing.Size(173, 36);
             this.label1.TabIndex = 0;
-            this.label1.Text = "CINER";
+            this.label1.Text = "CINER QA.P";
             // 
             // paneltitlebar
             // 
@@ -202,20 +218,59 @@ namespace Winform_Nhom20_BTL
             this.paneldesktop.Location = new System.Drawing.Point(220, 64);
             this.paneldesktop.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.paneldesktop.Name = "paneldesktop";
-            this.paneldesktop.Size = new System.Drawing.Size(527, 285);
+            this.paneldesktop.Size = new System.Drawing.Size(527, 455);
             this.paneldesktop.TabIndex = 2;
             this.paneldesktop.Paint += new System.Windows.Forms.PaintEventHandler(this.paneldesktop_Paint);
+            // 
+            // button1
+            // 
+            this.button1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(0, 471);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button1.Name = "button1";
+            this.button1.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.button1.Size = new System.Drawing.Size(220, 48);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Thoát";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // buttonphim
+            // 
+            this.buttonphim.Dock = System.Windows.Forms.DockStyle.Top;
+            this.buttonphim.FlatAppearance.BorderSize = 0;
+            this.buttonphim.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonphim.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonphim.ForeColor = System.Drawing.Color.White;
+            this.buttonphim.Image = ((System.Drawing.Image)(resources.GetObject("buttonphim.Image")));
+            this.buttonphim.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonphim.Location = new System.Drawing.Point(0, 304);
+            this.buttonphim.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonphim.Name = "buttonphim";
+            this.buttonphim.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.buttonphim.Size = new System.Drawing.Size(220, 48);
+            this.buttonphim.TabIndex = 7;
+            this.buttonphim.TabStop = false;
+            this.buttonphim.Text = "Phim";
+            this.buttonphim.UseVisualStyleBackColor = true;
+            this.buttonphim.Click += new System.EventHandler(this.buttonphim_Click);
             // 
             // FrmTrangchinh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(747, 349);
+            this.ClientSize = new System.Drawing.Size(747, 519);
             this.Controls.Add(this.paneldesktop);
             this.Controls.Add(this.paneltitlebar);
             this.Controls.Add(this.panelmenu);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FrmTrangchinh";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.panelmenu.ResumeLayout(false);
             this.panellogo.ResumeLayout(false);
@@ -239,5 +294,7 @@ namespace Winform_Nhom20_BTL
         private Label labeltitle;
         private Label label1;
         private Panel paneldesktop;
+        private Button button1;
+        private Button buttonphim;
     }
 }

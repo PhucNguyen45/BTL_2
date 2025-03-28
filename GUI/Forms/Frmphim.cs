@@ -1,20 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Drawing;
 using System.Data;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Winform_Nhom20_BTL.GUI
+namespace Winform_Nhom20_BTL.GUI.Forms
 {
-    public partial class Film_Chosing: UserControl
+    public partial class Frmphim : Form
     {
-        public Film_Chosing()
+        public Frmphim()
         {
             InitializeComponent();
+        }
+
+        private void tabPage1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
