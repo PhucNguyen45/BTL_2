@@ -1,4 +1,6 @@
-﻿namespace Winform_Nhom20_BTL.GUI
+﻿using System.Drawing;
+
+namespace Winform_Nhom20_BTL.GUI
 {
     partial class SellForm
     {
@@ -36,6 +38,7 @@
             this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.Sub_panel = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
             this.Receipt = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
@@ -46,6 +49,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.Receipt.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -185,10 +189,19 @@
             this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel2.Controls.Add(this.Sub_panel);
             this.panel2.Location = new System.Drawing.Point(12, 71);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(751, 486);
             this.panel2.TabIndex = 4;
+            // 
+            // Sub_panel
+            // 
+            this.Sub_panel.Location = new System.Drawing.Point(55, 33);
+            this.Sub_panel.Name = "Sub_panel";
+            this.Sub_panel.Size = new System.Drawing.Size(634, 409);
+            this.Sub_panel.TabIndex = 0;
+            this.Sub_panel.Visible = false;
             // 
             // button2
             // 
@@ -303,6 +316,7 @@
             this.Text = "Cineer Vietnam Corp.";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
             this.Receipt.ResumeLayout(false);
             this.Receipt.PerformLayout();
             this.ResumeLayout(false);
@@ -328,5 +342,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private System.Windows.Forms.Panel Sub_panel;
     }
 }

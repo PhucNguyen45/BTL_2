@@ -7,17 +7,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Winform_Nhom20_BTL.GUI.UCs_Main;
 
 namespace Winform_Nhom20_BTL.GUI
 {
     public partial class Film_Chosing: UserControl
     {
         private SellForm sellForm;
+        private Panel Sub_panel;
 
         public Film_Chosing(SellForm sellForm)
         {
             InitializeComponent();
             this.sellForm = sellForm;
+            this.Sub_panel = new Panel();
         }
 
         private void SuggestionBox_Click(object sender, EventArgs e)
@@ -52,29 +55,19 @@ namespace Winform_Nhom20_BTL.GUI
                 SuggestionBox.Visible = false;
             }
 
-
-
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void FilmData_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            // phải có database phim thì mới add tên phim được
-            string film_name = "Tangled";
-            sellForm.UpdateReceipt_Film(film_name);
-            MessageBox.Show("Đã thêm phim");
-            sellForm.Film_Save_Click(sender, e);
-        }
+            //string selectedFilm = FilmData.Rows[e.RowIndex].Cells[e.ColumnIndex].Value?.ToString();
 
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Đã thêm phim");
-            
-        }
+            this.BackColor = Color.FromArgb(100, Color.Black);
 
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Đã thêm phim");
-            
+            DateTime_Chosing uc = new DateTime_Chosing();
+            uc.Dock = DockStyle.Fill;
+            Sub_panel.Controls.Clear();
+            Sub_panel.Controls.Add(uc);
+            uc.BringToFront();
         }
     }
 }

@@ -117,6 +117,12 @@
     <Compile Include="GUI\ReceiptPrinting.Designer.cs">
       <DependentUpon>ReceiptPrinting.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\UCs_Main\DateTime_Chosing.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCs_Main\DateTime_Chosing.Designer.cs">
+      <DependentUpon>DateTime_Chosing.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\UCs_Main\Film_Chosing.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -203,6 +209,9 @@
     <Compile Include="GUI\UCs_Main\Customer_Info.Designer.cs">
       <DependentUpon>Customer_Info.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="GUI\UCs_Main\DateTime_Chosing.resx">
+      <DependentUpon>DateTime_Chosing.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\UCs_Main\Film_Chosing.resx">
       <DependentUpon>Film_Chosing.cs</DependentUpon>
     </EmbeddedResource>

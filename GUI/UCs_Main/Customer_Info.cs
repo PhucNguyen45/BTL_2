@@ -28,6 +28,22 @@ namespace Winform_Nhom20_BTL.UserControls
             string phone = textBox3.Text;
             string date = dateTimePicker1.Value.ToString("dd/MM/yyyy");
 
+            if (name == "" || cccd == "" || phone == "")
+            {
+                MessageBox.Show("Vui lòng nhập đầy đủ thông tin khách hàng");
+                return;
+            }
+            else if (cccd.Length != 12)
+            {
+                MessageBox.Show("Số CCCD không hợp lệ");
+                return;
+            }
+            else if (phone.Length > 11)
+            {
+                MessageBox.Show("Số điện thoại không hợp lệ");
+                return;
+            }
+
             sellForm.UpdateReceipt_Info(name, cccd, phone, date);
 
             sellForm.Customer_Save_Click(sender, e);

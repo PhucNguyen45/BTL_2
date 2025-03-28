@@ -28,67 +28,71 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Seat_Chosing));
             this.panel1 = new System.Windows.Forms.Panel();
             this.Film_nameLabel = new System.Windows.Forms.Label();
-            this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.guna2ImageButton2 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton3 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton4 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton5 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton6 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton7 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton8 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton9 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton10 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton11 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton12 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton13 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton14 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton15 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton16 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton17 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton18 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton19 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton20 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton21 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton22 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton23 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton24 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton25 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton26 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton27 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton28 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton29 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton30 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton31 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton32 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton33 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton34 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton35 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton36 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton37 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton38 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton39 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton40 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.iconButton1 = new FontAwesome.Sharp.IconButton();
-            this.iconButton2 = new FontAwesome.Sharp.IconButton();
-            this.iconButton3 = new FontAwesome.Sharp.IconButton();
-            this.iconButton4 = new FontAwesome.Sharp.IconButton();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.panel1.SuspendLayout();
+            this.Seat1 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat13 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat25 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat37 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat2 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat3 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat4 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat5 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat6 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat7 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat8 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat9 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat10 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat11 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat12 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat14 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat15 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat16 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat17 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat18 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat19 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat20 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat21 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat22 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat23 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat24 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat26 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat27 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat28 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat29 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat30 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat31 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat32 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat33 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat34 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat35 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat36 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat38 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat39 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat40 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat41 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat42 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat43 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat44 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat45 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat46 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat47 = new Guna.UI2.WinForms.Guna2Button();
+            this.Seat48 = new Guna.UI2.WinForms.Guna2Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.panel1.Controls.Add(this.Film_nameLabel);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(898, 60);
+            this.panel1.Size = new System.Drawing.Size(980, 60);
             this.panel1.TabIndex = 0;
             // 
             // Film_nameLabel
@@ -96,677 +100,1073 @@
             this.Film_nameLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.Film_nameLabel.AutoSize = true;
             this.Film_nameLabel.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Film_nameLabel.Location = new System.Drawing.Point(372, 14);
+            this.Film_nameLabel.Location = new System.Drawing.Point(377, 0);
             this.Film_nameLabel.Name = "Film_nameLabel";
             this.Film_nameLabel.Size = new System.Drawing.Size(85, 31);
             this.Film_nameLabel.TabIndex = 0;
             this.Film_nameLabel.Text = "label1";
             // 
-            // guna2ImageButton1
+            // panel3
             // 
-            this.guna2ImageButton1.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton1.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton1.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton1.Image")));
-            this.guna2ImageButton1.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton1.ImageRotate = 0F;
-            this.guna2ImageButton1.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton1.Location = new System.Drawing.Point(306, 148);
-            this.guna2ImageButton1.Name = "guna2ImageButton1";
-            this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton1.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton1.TabIndex = 0;
+            this.panel3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.panel3.Controls.Add(this.Seat48);
+            this.panel3.Controls.Add(this.Seat47);
+            this.panel3.Controls.Add(this.Seat46);
+            this.panel3.Controls.Add(this.Seat45);
+            this.panel3.Controls.Add(this.Seat44);
+            this.panel3.Controls.Add(this.Seat43);
+            this.panel3.Controls.Add(this.Seat42);
+            this.panel3.Controls.Add(this.Seat41);
+            this.panel3.Controls.Add(this.Seat40);
+            this.panel3.Controls.Add(this.Seat39);
+            this.panel3.Controls.Add(this.Seat38);
+            this.panel3.Controls.Add(this.Seat36);
+            this.panel3.Controls.Add(this.Seat35);
+            this.panel3.Controls.Add(this.Seat34);
+            this.panel3.Controls.Add(this.Seat33);
+            this.panel3.Controls.Add(this.Seat32);
+            this.panel3.Controls.Add(this.Seat31);
+            this.panel3.Controls.Add(this.Seat30);
+            this.panel3.Controls.Add(this.Seat29);
+            this.panel3.Controls.Add(this.Seat28);
+            this.panel3.Controls.Add(this.Seat27);
+            this.panel3.Controls.Add(this.Seat26);
+            this.panel3.Controls.Add(this.Seat24);
+            this.panel3.Controls.Add(this.Seat23);
+            this.panel3.Controls.Add(this.Seat22);
+            this.panel3.Controls.Add(this.Seat21);
+            this.panel3.Controls.Add(this.Seat20);
+            this.panel3.Controls.Add(this.Seat19);
+            this.panel3.Controls.Add(this.Seat18);
+            this.panel3.Controls.Add(this.Seat17);
+            this.panel3.Controls.Add(this.Seat16);
+            this.panel3.Controls.Add(this.Seat15);
+            this.panel3.Controls.Add(this.Seat14);
+            this.panel3.Controls.Add(this.Seat12);
+            this.panel3.Controls.Add(this.Seat11);
+            this.panel3.Controls.Add(this.Seat10);
+            this.panel3.Controls.Add(this.Seat9);
+            this.panel3.Controls.Add(this.Seat8);
+            this.panel3.Controls.Add(this.Seat7);
+            this.panel3.Controls.Add(this.Seat6);
+            this.panel3.Controls.Add(this.Seat5);
+            this.panel3.Controls.Add(this.Seat4);
+            this.panel3.Controls.Add(this.Seat3);
+            this.panel3.Controls.Add(this.Seat2);
+            this.panel3.Controls.Add(this.Seat37);
+            this.panel3.Controls.Add(this.Seat25);
+            this.panel3.Controls.Add(this.Seat13);
+            this.panel3.Controls.Add(this.Seat1);
+            this.panel3.Location = new System.Drawing.Point(85, 195);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(810, 262);
+            this.panel3.TabIndex = 62;
+            // 
+            // Seat1
+            // 
+            this.Seat1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.Seat1.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat1.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat1.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat1.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat1.DisabledState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat1.DisabledState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.Seat1.DisabledState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat1.DisabledState.ForeColor = System.Drawing.Color.Black;
+            this.Seat1.FillColor = System.Drawing.Color.Transparent;
+            this.Seat1.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat1.ForeColor = System.Drawing.Color.Black;
+            this.Seat1.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat1.HoverState.FillColor = System.Drawing.Color.DarkGray;
+            this.Seat1.Location = new System.Drawing.Point(0, 0);
+            this.Seat1.Name = "Seat1";
+            this.Seat1.Size = new System.Drawing.Size(62, 61);
+            this.Seat1.TabIndex = 0;
+            this.Seat1.Text = "A1";
+            // 
+            // Seat13
+            // 
+            this.Seat13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.Seat13.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat13.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat13.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat13.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat13.DisabledState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat13.DisabledState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.Seat13.DisabledState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat13.DisabledState.ForeColor = System.Drawing.Color.Black;
+            this.Seat13.FillColor = System.Drawing.Color.Transparent;
+            this.Seat13.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat13.ForeColor = System.Drawing.Color.Black;
+            this.Seat13.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat13.HoverState.FillColor = System.Drawing.Color.DarkGray;
+            this.Seat13.Location = new System.Drawing.Point(0, 67);
+            this.Seat13.Name = "Seat13";
+            this.Seat13.Size = new System.Drawing.Size(62, 61);
+            this.Seat13.TabIndex = 1;
+            this.Seat13.Text = "B1";
+            // 
+            // Seat25
+            // 
+            this.Seat25.BackColor = System.Drawing.Color.Transparent;
+            this.Seat25.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat25.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat25.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Seat25.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Seat25.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Seat25.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Seat25.FillColor = System.Drawing.Color.Transparent;
+            this.Seat25.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat25.ForeColor = System.Drawing.Color.Black;
+            this.Seat25.HoverState.BorderColor = System.Drawing.Color.Silver;
+            this.Seat25.Location = new System.Drawing.Point(0, 134);
+            this.Seat25.Name = "Seat25";
+            this.Seat25.Size = new System.Drawing.Size(62, 61);
+            this.Seat25.TabIndex = 2;
+            this.Seat25.Text = "C1";
+            // 
+            // Seat37
+            // 
+            this.Seat37.BackColor = System.Drawing.Color.Transparent;
+            this.Seat37.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat37.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat37.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Seat37.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Seat37.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Seat37.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Seat37.FillColor = System.Drawing.Color.Transparent;
+            this.Seat37.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat37.ForeColor = System.Drawing.Color.Black;
+            this.Seat37.HoverState.BorderColor = System.Drawing.Color.Silver;
+            this.Seat37.Location = new System.Drawing.Point(0, 201);
+            this.Seat37.Name = "Seat37";
+            this.Seat37.Size = new System.Drawing.Size(62, 61);
+            this.Seat37.TabIndex = 3;
+            this.Seat37.Text = "D1";
+            // 
+            // Seat2
+            // 
+            this.Seat2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.Seat2.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat2.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat2.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat2.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat2.DisabledState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat2.DisabledState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.Seat2.DisabledState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat2.DisabledState.ForeColor = System.Drawing.Color.Black;
+            this.Seat2.FillColor = System.Drawing.Color.Transparent;
+            this.Seat2.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat2.ForeColor = System.Drawing.Color.Black;
+            this.Seat2.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat2.HoverState.FillColor = System.Drawing.Color.DarkGray;
+            this.Seat2.Location = new System.Drawing.Point(68, 0);
+            this.Seat2.Name = "Seat2";
+            this.Seat2.Size = new System.Drawing.Size(62, 61);
+            this.Seat2.TabIndex = 4;
+            this.Seat2.Text = "A2";
+            // 
+            // Seat3
+            // 
+            this.Seat3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.Seat3.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat3.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat3.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat3.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat3.DisabledState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat3.DisabledState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.Seat3.DisabledState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat3.DisabledState.ForeColor = System.Drawing.Color.Black;
+            this.Seat3.FillColor = System.Drawing.Color.Transparent;
+            this.Seat3.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat3.ForeColor = System.Drawing.Color.Black;
+            this.Seat3.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat3.HoverState.FillColor = System.Drawing.Color.DarkGray;
+            this.Seat3.Location = new System.Drawing.Point(136, 0);
+            this.Seat3.Name = "Seat3";
+            this.Seat3.Size = new System.Drawing.Size(62, 61);
+            this.Seat3.TabIndex = 5;
+            this.Seat3.Text = "A3";
+            // 
+            // Seat4
+            // 
+            this.Seat4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.Seat4.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat4.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat4.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat4.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat4.DisabledState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat4.DisabledState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.Seat4.DisabledState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat4.DisabledState.ForeColor = System.Drawing.Color.Black;
+            this.Seat4.FillColor = System.Drawing.Color.Transparent;
+            this.Seat4.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat4.ForeColor = System.Drawing.Color.Black;
+            this.Seat4.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat4.HoverState.FillColor = System.Drawing.Color.DarkGray;
+            this.Seat4.Location = new System.Drawing.Point(204, 0);
+            this.Seat4.Name = "Seat4";
+            this.Seat4.Size = new System.Drawing.Size(62, 61);
+            this.Seat4.TabIndex = 6;
+            this.Seat4.Text = "A4";
+            // 
+            // Seat5
+            // 
+            this.Seat5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.Seat5.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat5.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat5.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat5.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat5.DisabledState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat5.DisabledState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.Seat5.DisabledState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat5.DisabledState.ForeColor = System.Drawing.Color.Black;
+            this.Seat5.FillColor = System.Drawing.Color.Transparent;
+            this.Seat5.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat5.ForeColor = System.Drawing.Color.Black;
+            this.Seat5.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat5.HoverState.FillColor = System.Drawing.Color.DarkGray;
+            this.Seat5.Location = new System.Drawing.Point(272, 0);
+            this.Seat5.Name = "Seat5";
+            this.Seat5.Size = new System.Drawing.Size(62, 61);
+            this.Seat5.TabIndex = 7;
+            this.Seat5.Text = "A5";
+            // 
+            // Seat6
+            // 
+            this.Seat6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.Seat6.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat6.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat6.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat6.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat6.DisabledState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat6.DisabledState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.Seat6.DisabledState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat6.DisabledState.ForeColor = System.Drawing.Color.Black;
+            this.Seat6.FillColor = System.Drawing.Color.Transparent;
+            this.Seat6.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat6.ForeColor = System.Drawing.Color.Black;
+            this.Seat6.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat6.HoverState.FillColor = System.Drawing.Color.DarkGray;
+            this.Seat6.Location = new System.Drawing.Point(340, 0);
+            this.Seat6.Name = "Seat6";
+            this.Seat6.Size = new System.Drawing.Size(62, 61);
+            this.Seat6.TabIndex = 8;
+            this.Seat6.Text = "A6";
+            // 
+            // Seat7
+            // 
+            this.Seat7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.Seat7.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat7.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat7.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat7.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat7.DisabledState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat7.DisabledState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.Seat7.DisabledState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat7.DisabledState.ForeColor = System.Drawing.Color.Black;
+            this.Seat7.FillColor = System.Drawing.Color.Transparent;
+            this.Seat7.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat7.ForeColor = System.Drawing.Color.Black;
+            this.Seat7.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat7.HoverState.FillColor = System.Drawing.Color.DarkGray;
+            this.Seat7.Location = new System.Drawing.Point(408, 0);
+            this.Seat7.Name = "Seat7";
+            this.Seat7.Size = new System.Drawing.Size(62, 61);
+            this.Seat7.TabIndex = 9;
+            this.Seat7.Text = "A7";
+            // 
+            // Seat8
+            // 
+            this.Seat8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.Seat8.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat8.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat8.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat8.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat8.DisabledState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat8.DisabledState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.Seat8.DisabledState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat8.DisabledState.ForeColor = System.Drawing.Color.Black;
+            this.Seat8.FillColor = System.Drawing.Color.Transparent;
+            this.Seat8.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat8.ForeColor = System.Drawing.Color.Black;
+            this.Seat8.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat8.HoverState.FillColor = System.Drawing.Color.DarkGray;
+            this.Seat8.Location = new System.Drawing.Point(476, 0);
+            this.Seat8.Name = "Seat8";
+            this.Seat8.Size = new System.Drawing.Size(62, 61);
+            this.Seat8.TabIndex = 10;
+            this.Seat8.Text = "A8";
+            // 
+            // Seat9
+            // 
+            this.Seat9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.Seat9.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat9.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat9.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat9.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat9.DisabledState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat9.DisabledState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.Seat9.DisabledState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat9.DisabledState.ForeColor = System.Drawing.Color.Black;
+            this.Seat9.FillColor = System.Drawing.Color.Transparent;
+            this.Seat9.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat9.ForeColor = System.Drawing.Color.Black;
+            this.Seat9.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat9.HoverState.FillColor = System.Drawing.Color.DarkGray;
+            this.Seat9.Location = new System.Drawing.Point(544, 0);
+            this.Seat9.Name = "Seat9";
+            this.Seat9.Size = new System.Drawing.Size(62, 61);
+            this.Seat9.TabIndex = 11;
+            this.Seat9.Text = "A9";
+            // 
+            // Seat10
+            // 
+            this.Seat10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.Seat10.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat10.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat10.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat10.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat10.DisabledState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat10.DisabledState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.Seat10.DisabledState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat10.DisabledState.ForeColor = System.Drawing.Color.Black;
+            this.Seat10.FillColor = System.Drawing.Color.Transparent;
+            this.Seat10.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat10.ForeColor = System.Drawing.Color.Black;
+            this.Seat10.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat10.HoverState.FillColor = System.Drawing.Color.DarkGray;
+            this.Seat10.Location = new System.Drawing.Point(612, 0);
+            this.Seat10.Name = "Seat10";
+            this.Seat10.Size = new System.Drawing.Size(62, 61);
+            this.Seat10.TabIndex = 12;
+            this.Seat10.Text = "A10";
+            // 
+            // Seat11
+            // 
+            this.Seat11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.Seat11.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat11.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat11.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat11.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat11.DisabledState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat11.DisabledState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.Seat11.DisabledState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat11.DisabledState.ForeColor = System.Drawing.Color.Black;
+            this.Seat11.FillColor = System.Drawing.Color.Transparent;
+            this.Seat11.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat11.ForeColor = System.Drawing.Color.Black;
+            this.Seat11.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat11.HoverState.FillColor = System.Drawing.Color.DarkGray;
+            this.Seat11.Location = new System.Drawing.Point(680, 0);
+            this.Seat11.Name = "Seat11";
+            this.Seat11.Size = new System.Drawing.Size(62, 61);
+            this.Seat11.TabIndex = 13;
+            this.Seat11.Text = "A11";
+            // 
+            // Seat12
+            // 
+            this.Seat12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.Seat12.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat12.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat12.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat12.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat12.DisabledState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat12.DisabledState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.Seat12.DisabledState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat12.DisabledState.ForeColor = System.Drawing.Color.Black;
+            this.Seat12.FillColor = System.Drawing.Color.Transparent;
+            this.Seat12.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat12.ForeColor = System.Drawing.Color.Black;
+            this.Seat12.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat12.HoverState.FillColor = System.Drawing.Color.DarkGray;
+            this.Seat12.Location = new System.Drawing.Point(748, 0);
+            this.Seat12.Name = "Seat12";
+            this.Seat12.Size = new System.Drawing.Size(62, 61);
+            this.Seat12.TabIndex = 14;
+            this.Seat12.Text = "A12";
+            // 
+            // Seat14
+            // 
+            this.Seat14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.Seat14.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat14.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat14.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat14.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat14.DisabledState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat14.DisabledState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.Seat14.DisabledState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat14.DisabledState.ForeColor = System.Drawing.Color.Black;
+            this.Seat14.FillColor = System.Drawing.Color.Transparent;
+            this.Seat14.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat14.ForeColor = System.Drawing.Color.Black;
+            this.Seat14.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat14.HoverState.FillColor = System.Drawing.Color.DarkGray;
+            this.Seat14.Location = new System.Drawing.Point(68, 67);
+            this.Seat14.Name = "Seat14";
+            this.Seat14.Size = new System.Drawing.Size(62, 61);
+            this.Seat14.TabIndex = 15;
+            this.Seat14.Text = "B2";
+            // 
+            // Seat15
+            // 
+            this.Seat15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.Seat15.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat15.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat15.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat15.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat15.DisabledState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat15.DisabledState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.Seat15.DisabledState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat15.DisabledState.ForeColor = System.Drawing.Color.Black;
+            this.Seat15.FillColor = System.Drawing.Color.Transparent;
+            this.Seat15.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat15.ForeColor = System.Drawing.Color.Black;
+            this.Seat15.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat15.HoverState.FillColor = System.Drawing.Color.DarkGray;
+            this.Seat15.Location = new System.Drawing.Point(136, 67);
+            this.Seat15.Name = "Seat15";
+            this.Seat15.Size = new System.Drawing.Size(62, 61);
+            this.Seat15.TabIndex = 16;
+            this.Seat15.Text = "B3";
+            // 
+            // Seat16
+            // 
+            this.Seat16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.Seat16.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat16.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat16.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat16.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat16.DisabledState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat16.DisabledState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.Seat16.DisabledState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat16.DisabledState.ForeColor = System.Drawing.Color.Black;
+            this.Seat16.FillColor = System.Drawing.Color.Transparent;
+            this.Seat16.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat16.ForeColor = System.Drawing.Color.Black;
+            this.Seat16.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat16.HoverState.FillColor = System.Drawing.Color.DarkGray;
+            this.Seat16.Location = new System.Drawing.Point(204, 67);
+            this.Seat16.Name = "Seat16";
+            this.Seat16.Size = new System.Drawing.Size(62, 61);
+            this.Seat16.TabIndex = 17;
+            this.Seat16.Text = "B4";
+            // 
+            // Seat17
+            // 
+            this.Seat17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.Seat17.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat17.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat17.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat17.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat17.DisabledState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat17.DisabledState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.Seat17.DisabledState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat17.DisabledState.ForeColor = System.Drawing.Color.Black;
+            this.Seat17.FillColor = System.Drawing.Color.Transparent;
+            this.Seat17.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat17.ForeColor = System.Drawing.Color.Black;
+            this.Seat17.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat17.HoverState.FillColor = System.Drawing.Color.DarkGray;
+            this.Seat17.Location = new System.Drawing.Point(272, 67);
+            this.Seat17.Name = "Seat17";
+            this.Seat17.Size = new System.Drawing.Size(62, 61);
+            this.Seat17.TabIndex = 18;
+            this.Seat17.Text = "B5";
+            // 
+            // Seat18
+            // 
+            this.Seat18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.Seat18.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat18.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat18.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat18.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat18.DisabledState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat18.DisabledState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.Seat18.DisabledState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat18.DisabledState.ForeColor = System.Drawing.Color.Black;
+            this.Seat18.FillColor = System.Drawing.Color.Transparent;
+            this.Seat18.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat18.ForeColor = System.Drawing.Color.Black;
+            this.Seat18.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat18.HoverState.FillColor = System.Drawing.Color.DarkGray;
+            this.Seat18.Location = new System.Drawing.Point(340, 67);
+            this.Seat18.Name = "Seat18";
+            this.Seat18.Size = new System.Drawing.Size(62, 61);
+            this.Seat18.TabIndex = 19;
+            this.Seat18.Text = "B6";
+            // 
+            // Seat19
+            // 
+            this.Seat19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.Seat19.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat19.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat19.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat19.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat19.DisabledState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat19.DisabledState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.Seat19.DisabledState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat19.DisabledState.ForeColor = System.Drawing.Color.Black;
+            this.Seat19.FillColor = System.Drawing.Color.Transparent;
+            this.Seat19.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat19.ForeColor = System.Drawing.Color.Black;
+            this.Seat19.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat19.HoverState.FillColor = System.Drawing.Color.DarkGray;
+            this.Seat19.Location = new System.Drawing.Point(408, 67);
+            this.Seat19.Name = "Seat19";
+            this.Seat19.Size = new System.Drawing.Size(62, 61);
+            this.Seat19.TabIndex = 20;
+            this.Seat19.Text = "B7";
+            // 
+            // Seat20
+            // 
+            this.Seat20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.Seat20.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat20.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat20.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat20.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat20.DisabledState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat20.DisabledState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.Seat20.DisabledState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat20.DisabledState.ForeColor = System.Drawing.Color.Black;
+            this.Seat20.FillColor = System.Drawing.Color.Transparent;
+            this.Seat20.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat20.ForeColor = System.Drawing.Color.Black;
+            this.Seat20.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat20.HoverState.FillColor = System.Drawing.Color.DarkGray;
+            this.Seat20.Location = new System.Drawing.Point(476, 67);
+            this.Seat20.Name = "Seat20";
+            this.Seat20.Size = new System.Drawing.Size(62, 61);
+            this.Seat20.TabIndex = 21;
+            this.Seat20.Text = "B8";
+            // 
+            // Seat21
+            // 
+            this.Seat21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.Seat21.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat21.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat21.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat21.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat21.DisabledState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat21.DisabledState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.Seat21.DisabledState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat21.DisabledState.ForeColor = System.Drawing.Color.Black;
+            this.Seat21.FillColor = System.Drawing.Color.Transparent;
+            this.Seat21.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat21.ForeColor = System.Drawing.Color.Black;
+            this.Seat21.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat21.HoverState.FillColor = System.Drawing.Color.DarkGray;
+            this.Seat21.Location = new System.Drawing.Point(544, 67);
+            this.Seat21.Name = "Seat21";
+            this.Seat21.Size = new System.Drawing.Size(62, 61);
+            this.Seat21.TabIndex = 22;
+            this.Seat21.Text = "B9";
+            // 
+            // Seat22
+            // 
+            this.Seat22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.Seat22.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat22.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat22.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat22.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat22.DisabledState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat22.DisabledState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.Seat22.DisabledState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat22.DisabledState.ForeColor = System.Drawing.Color.Black;
+            this.Seat22.FillColor = System.Drawing.Color.Transparent;
+            this.Seat22.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat22.ForeColor = System.Drawing.Color.Black;
+            this.Seat22.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat22.HoverState.FillColor = System.Drawing.Color.DarkGray;
+            this.Seat22.Location = new System.Drawing.Point(612, 67);
+            this.Seat22.Name = "Seat22";
+            this.Seat22.Size = new System.Drawing.Size(62, 61);
+            this.Seat22.TabIndex = 23;
+            this.Seat22.Text = "B10";
+            // 
+            // Seat23
+            // 
+            this.Seat23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.Seat23.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat23.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat23.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat23.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat23.DisabledState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat23.DisabledState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.Seat23.DisabledState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat23.DisabledState.ForeColor = System.Drawing.Color.Black;
+            this.Seat23.FillColor = System.Drawing.Color.Transparent;
+            this.Seat23.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat23.ForeColor = System.Drawing.Color.Black;
+            this.Seat23.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat23.HoverState.FillColor = System.Drawing.Color.DarkGray;
+            this.Seat23.Location = new System.Drawing.Point(680, 67);
+            this.Seat23.Name = "Seat23";
+            this.Seat23.Size = new System.Drawing.Size(62, 61);
+            this.Seat23.TabIndex = 24;
+            this.Seat23.Text = "B11";
+            // 
+            // Seat24
+            // 
+            this.Seat24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.Seat24.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat24.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat24.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat24.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat24.DisabledState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat24.DisabledState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.Seat24.DisabledState.FillColor = System.Drawing.Color.Transparent;
+            this.Seat24.DisabledState.ForeColor = System.Drawing.Color.Black;
+            this.Seat24.FillColor = System.Drawing.Color.Transparent;
+            this.Seat24.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat24.ForeColor = System.Drawing.Color.Black;
+            this.Seat24.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.Seat24.HoverState.FillColor = System.Drawing.Color.DarkGray;
+            this.Seat24.Location = new System.Drawing.Point(748, 67);
+            this.Seat24.Name = "Seat24";
+            this.Seat24.Size = new System.Drawing.Size(62, 61);
+            this.Seat24.TabIndex = 25;
+            this.Seat24.Text = "B12";
+            // 
+            // Seat26
+            // 
+            this.Seat26.BackColor = System.Drawing.Color.Transparent;
+            this.Seat26.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat26.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat26.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Seat26.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Seat26.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Seat26.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Seat26.FillColor = System.Drawing.Color.Transparent;
+            this.Seat26.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat26.ForeColor = System.Drawing.Color.Black;
+            this.Seat26.HoverState.BorderColor = System.Drawing.Color.Silver;
+            this.Seat26.Location = new System.Drawing.Point(68, 134);
+            this.Seat26.Name = "Seat26";
+            this.Seat26.Size = new System.Drawing.Size(62, 61);
+            this.Seat26.TabIndex = 26;
+            this.Seat26.Text = "C2";
+            // 
+            // Seat27
+            // 
+            this.Seat27.BackColor = System.Drawing.Color.Transparent;
+            this.Seat27.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat27.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat27.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Seat27.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Seat27.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Seat27.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Seat27.FillColor = System.Drawing.Color.Transparent;
+            this.Seat27.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat27.ForeColor = System.Drawing.Color.Black;
+            this.Seat27.HoverState.BorderColor = System.Drawing.Color.Silver;
+            this.Seat27.Location = new System.Drawing.Point(136, 134);
+            this.Seat27.Name = "Seat27";
+            this.Seat27.Size = new System.Drawing.Size(62, 61);
+            this.Seat27.TabIndex = 27;
+            this.Seat27.Text = "C3";
+            // 
+            // Seat28
+            // 
+            this.Seat28.BackColor = System.Drawing.Color.Transparent;
+            this.Seat28.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat28.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat28.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Seat28.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Seat28.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Seat28.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Seat28.FillColor = System.Drawing.Color.Transparent;
+            this.Seat28.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat28.ForeColor = System.Drawing.Color.Black;
+            this.Seat28.HoverState.BorderColor = System.Drawing.Color.Silver;
+            this.Seat28.Location = new System.Drawing.Point(204, 134);
+            this.Seat28.Name = "Seat28";
+            this.Seat28.Size = new System.Drawing.Size(62, 61);
+            this.Seat28.TabIndex = 28;
+            this.Seat28.Text = "C4";
+            // 
+            // Seat29
+            // 
+            this.Seat29.BackColor = System.Drawing.Color.Transparent;
+            this.Seat29.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat29.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat29.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Seat29.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Seat29.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Seat29.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Seat29.FillColor = System.Drawing.Color.Transparent;
+            this.Seat29.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat29.ForeColor = System.Drawing.Color.Black;
+            this.Seat29.HoverState.BorderColor = System.Drawing.Color.Silver;
+            this.Seat29.Location = new System.Drawing.Point(272, 134);
+            this.Seat29.Name = "Seat29";
+            this.Seat29.Size = new System.Drawing.Size(62, 61);
+            this.Seat29.TabIndex = 29;
+            this.Seat29.Text = "C5";
+            // 
+            // Seat30
+            // 
+            this.Seat30.BackColor = System.Drawing.Color.Transparent;
+            this.Seat30.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat30.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat30.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Seat30.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Seat30.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Seat30.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Seat30.FillColor = System.Drawing.Color.Transparent;
+            this.Seat30.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat30.ForeColor = System.Drawing.Color.Black;
+            this.Seat30.HoverState.BorderColor = System.Drawing.Color.Silver;
+            this.Seat30.Location = new System.Drawing.Point(340, 134);
+            this.Seat30.Name = "Seat30";
+            this.Seat30.Size = new System.Drawing.Size(62, 61);
+            this.Seat30.TabIndex = 30;
+            this.Seat30.Text = "C6";
+            // 
+            // Seat31
+            // 
+            this.Seat31.BackColor = System.Drawing.Color.Transparent;
+            this.Seat31.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat31.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat31.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Seat31.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Seat31.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Seat31.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Seat31.FillColor = System.Drawing.Color.Transparent;
+            this.Seat31.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat31.ForeColor = System.Drawing.Color.Black;
+            this.Seat31.HoverState.BorderColor = System.Drawing.Color.Silver;
+            this.Seat31.Location = new System.Drawing.Point(408, 134);
+            this.Seat31.Name = "Seat31";
+            this.Seat31.Size = new System.Drawing.Size(62, 61);
+            this.Seat31.TabIndex = 31;
+            this.Seat31.Text = "C7";
+            // 
+            // Seat32
+            // 
+            this.Seat32.BackColor = System.Drawing.Color.Transparent;
+            this.Seat32.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat32.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat32.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Seat32.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Seat32.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Seat32.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Seat32.FillColor = System.Drawing.Color.Transparent;
+            this.Seat32.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat32.ForeColor = System.Drawing.Color.Black;
+            this.Seat32.HoverState.BorderColor = System.Drawing.Color.Silver;
+            this.Seat32.Location = new System.Drawing.Point(476, 134);
+            this.Seat32.Name = "Seat32";
+            this.Seat32.Size = new System.Drawing.Size(62, 61);
+            this.Seat32.TabIndex = 32;
+            this.Seat32.Text = "C8";
+            // 
+            // Seat33
+            // 
+            this.Seat33.BackColor = System.Drawing.Color.Transparent;
+            this.Seat33.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat33.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat33.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Seat33.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Seat33.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Seat33.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Seat33.FillColor = System.Drawing.Color.Transparent;
+            this.Seat33.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat33.ForeColor = System.Drawing.Color.Black;
+            this.Seat33.HoverState.BorderColor = System.Drawing.Color.Silver;
+            this.Seat33.Location = new System.Drawing.Point(544, 134);
+            this.Seat33.Name = "Seat33";
+            this.Seat33.Size = new System.Drawing.Size(62, 61);
+            this.Seat33.TabIndex = 33;
+            this.Seat33.Text = "C9";
+            // 
+            // Seat34
+            // 
+            this.Seat34.BackColor = System.Drawing.Color.Transparent;
+            this.Seat34.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat34.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat34.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Seat34.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Seat34.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Seat34.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Seat34.FillColor = System.Drawing.Color.Transparent;
+            this.Seat34.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat34.ForeColor = System.Drawing.Color.Black;
+            this.Seat34.HoverState.BorderColor = System.Drawing.Color.Silver;
+            this.Seat34.Location = new System.Drawing.Point(612, 134);
+            this.Seat34.Name = "Seat34";
+            this.Seat34.Size = new System.Drawing.Size(62, 61);
+            this.Seat34.TabIndex = 34;
+            this.Seat34.Text = "C10";
+            // 
+            // Seat35
+            // 
+            this.Seat35.BackColor = System.Drawing.Color.Transparent;
+            this.Seat35.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat35.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat35.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Seat35.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Seat35.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Seat35.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Seat35.FillColor = System.Drawing.Color.Transparent;
+            this.Seat35.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat35.ForeColor = System.Drawing.Color.Black;
+            this.Seat35.HoverState.BorderColor = System.Drawing.Color.Silver;
+            this.Seat35.Location = new System.Drawing.Point(680, 134);
+            this.Seat35.Name = "Seat35";
+            this.Seat35.Size = new System.Drawing.Size(62, 61);
+            this.Seat35.TabIndex = 35;
+            this.Seat35.Text = "C11";
+            // 
+            // Seat36
+            // 
+            this.Seat36.BackColor = System.Drawing.Color.Transparent;
+            this.Seat36.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat36.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat36.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Seat36.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Seat36.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Seat36.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Seat36.FillColor = System.Drawing.Color.Transparent;
+            this.Seat36.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat36.ForeColor = System.Drawing.Color.Black;
+            this.Seat36.HoverState.BorderColor = System.Drawing.Color.Silver;
+            this.Seat36.Location = new System.Drawing.Point(748, 134);
+            this.Seat36.Name = "Seat36";
+            this.Seat36.Size = new System.Drawing.Size(62, 61);
+            this.Seat36.TabIndex = 36;
+            this.Seat36.Text = "C12";
+            // 
+            // Seat38
+            // 
+            this.Seat38.BackColor = System.Drawing.Color.Transparent;
+            this.Seat38.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat38.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat38.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Seat38.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Seat38.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Seat38.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Seat38.FillColor = System.Drawing.Color.Transparent;
+            this.Seat38.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat38.ForeColor = System.Drawing.Color.Black;
+            this.Seat38.HoverState.BorderColor = System.Drawing.Color.Silver;
+            this.Seat38.Location = new System.Drawing.Point(68, 201);
+            this.Seat38.Name = "Seat38";
+            this.Seat38.Size = new System.Drawing.Size(62, 61);
+            this.Seat38.TabIndex = 37;
+            this.Seat38.Text = "D2";
+            // 
+            // Seat39
+            // 
+            this.Seat39.BackColor = System.Drawing.Color.Transparent;
+            this.Seat39.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat39.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat39.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Seat39.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Seat39.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Seat39.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Seat39.FillColor = System.Drawing.Color.Transparent;
+            this.Seat39.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat39.ForeColor = System.Drawing.Color.Black;
+            this.Seat39.HoverState.BorderColor = System.Drawing.Color.Silver;
+            this.Seat39.Location = new System.Drawing.Point(136, 201);
+            this.Seat39.Name = "Seat39";
+            this.Seat39.Size = new System.Drawing.Size(62, 61);
+            this.Seat39.TabIndex = 38;
+            this.Seat39.Text = "D3";
+            // 
+            // Seat40
+            // 
+            this.Seat40.BackColor = System.Drawing.Color.Transparent;
+            this.Seat40.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat40.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat40.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Seat40.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Seat40.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Seat40.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Seat40.FillColor = System.Drawing.Color.Transparent;
+            this.Seat40.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat40.ForeColor = System.Drawing.Color.Black;
+            this.Seat40.HoverState.BorderColor = System.Drawing.Color.Silver;
+            this.Seat40.Location = new System.Drawing.Point(204, 201);
+            this.Seat40.Name = "Seat40";
+            this.Seat40.Size = new System.Drawing.Size(62, 61);
+            this.Seat40.TabIndex = 39;
+            this.Seat40.Text = "D4";
+            // 
+            // Seat41
+            // 
+            this.Seat41.BackColor = System.Drawing.Color.Transparent;
+            this.Seat41.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat41.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat41.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Seat41.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Seat41.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Seat41.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Seat41.FillColor = System.Drawing.Color.Transparent;
+            this.Seat41.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat41.ForeColor = System.Drawing.Color.Black;
+            this.Seat41.HoverState.BorderColor = System.Drawing.Color.Silver;
+            this.Seat41.Location = new System.Drawing.Point(272, 201);
+            this.Seat41.Name = "Seat41";
+            this.Seat41.Size = new System.Drawing.Size(62, 61);
+            this.Seat41.TabIndex = 40;
+            this.Seat41.Text = "D5";
+            // 
+            // Seat42
+            // 
+            this.Seat42.BackColor = System.Drawing.Color.Transparent;
+            this.Seat42.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat42.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat42.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Seat42.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Seat42.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Seat42.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Seat42.FillColor = System.Drawing.Color.Transparent;
+            this.Seat42.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat42.ForeColor = System.Drawing.Color.Black;
+            this.Seat42.HoverState.BorderColor = System.Drawing.Color.Silver;
+            this.Seat42.Location = new System.Drawing.Point(340, 201);
+            this.Seat42.Name = "Seat42";
+            this.Seat42.Size = new System.Drawing.Size(62, 61);
+            this.Seat42.TabIndex = 41;
+            this.Seat42.Text = "D6";
+            // 
+            // Seat43
+            // 
+            this.Seat43.BackColor = System.Drawing.Color.Transparent;
+            this.Seat43.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat43.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat43.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Seat43.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Seat43.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Seat43.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Seat43.FillColor = System.Drawing.Color.Transparent;
+            this.Seat43.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat43.ForeColor = System.Drawing.Color.Black;
+            this.Seat43.HoverState.BorderColor = System.Drawing.Color.Silver;
+            this.Seat43.Location = new System.Drawing.Point(408, 201);
+            this.Seat43.Name = "Seat43";
+            this.Seat43.Size = new System.Drawing.Size(62, 61);
+            this.Seat43.TabIndex = 42;
+            this.Seat43.Text = "D7";
+            // 
+            // Seat44
+            // 
+            this.Seat44.BackColor = System.Drawing.Color.Transparent;
+            this.Seat44.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat44.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat44.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Seat44.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Seat44.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Seat44.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Seat44.FillColor = System.Drawing.Color.Transparent;
+            this.Seat44.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat44.ForeColor = System.Drawing.Color.Black;
+            this.Seat44.HoverState.BorderColor = System.Drawing.Color.Silver;
+            this.Seat44.Location = new System.Drawing.Point(476, 201);
+            this.Seat44.Name = "Seat44";
+            this.Seat44.Size = new System.Drawing.Size(62, 61);
+            this.Seat44.TabIndex = 43;
+            this.Seat44.Text = "D8";
+            // 
+            // Seat45
+            // 
+            this.Seat45.BackColor = System.Drawing.Color.Transparent;
+            this.Seat45.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat45.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat45.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Seat45.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Seat45.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Seat45.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Seat45.FillColor = System.Drawing.Color.Transparent;
+            this.Seat45.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat45.ForeColor = System.Drawing.Color.Black;
+            this.Seat45.HoverState.BorderColor = System.Drawing.Color.Silver;
+            this.Seat45.Location = new System.Drawing.Point(544, 201);
+            this.Seat45.Name = "Seat45";
+            this.Seat45.Size = new System.Drawing.Size(62, 61);
+            this.Seat45.TabIndex = 44;
+            this.Seat45.Text = "D9";
+            // 
+            // Seat46
+            // 
+            this.Seat46.BackColor = System.Drawing.Color.Transparent;
+            this.Seat46.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat46.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat46.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Seat46.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Seat46.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Seat46.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Seat46.FillColor = System.Drawing.Color.Transparent;
+            this.Seat46.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat46.ForeColor = System.Drawing.Color.Black;
+            this.Seat46.HoverState.BorderColor = System.Drawing.Color.Silver;
+            this.Seat46.Location = new System.Drawing.Point(612, 201);
+            this.Seat46.Name = "Seat46";
+            this.Seat46.Size = new System.Drawing.Size(62, 61);
+            this.Seat46.TabIndex = 45;
+            this.Seat46.Text = "D10";
+            // 
+            // Seat47
+            // 
+            this.Seat47.BackColor = System.Drawing.Color.Transparent;
+            this.Seat47.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat47.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat47.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Seat47.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Seat47.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Seat47.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Seat47.FillColor = System.Drawing.Color.Transparent;
+            this.Seat47.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat47.ForeColor = System.Drawing.Color.Black;
+            this.Seat47.HoverState.BorderColor = System.Drawing.Color.Silver;
+            this.Seat47.Location = new System.Drawing.Point(680, 201);
+            this.Seat47.Name = "Seat47";
+            this.Seat47.Size = new System.Drawing.Size(62, 61);
+            this.Seat47.TabIndex = 46;
+            this.Seat47.Text = "D11";
+            // 
+            // Seat48
+            // 
+            this.Seat48.BackColor = System.Drawing.Color.Transparent;
+            this.Seat48.CheckedState.BorderColor = System.Drawing.Color.Red;
+            this.Seat48.CustomBorderThickness = new System.Windows.Forms.Padding(1);
+            this.Seat48.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Seat48.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Seat48.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Seat48.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Seat48.FillColor = System.Drawing.Color.Transparent;
+            this.Seat48.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seat48.ForeColor = System.Drawing.Color.Black;
+            this.Seat48.HoverState.BorderColor = System.Drawing.Color.Silver;
+            this.Seat48.Location = new System.Drawing.Point(748, 201);
+            this.Seat48.Name = "Seat48";
+            this.Seat48.Size = new System.Drawing.Size(62, 61);
+            this.Seat48.TabIndex = 47;
+            this.Seat48.Text = "D12";
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel2.Controls.Add(this.iconButton4);
-            this.panel2.Controls.Add(this.iconButton3);
-            this.panel2.Controls.Add(this.iconButton2);
-            this.panel2.Controls.Add(this.iconButton1);
-            this.panel2.Controls.Add(this.guna2ImageButton29);
-            this.panel2.Controls.Add(this.guna2ImageButton30);
-            this.panel2.Controls.Add(this.guna2ImageButton31);
-            this.panel2.Controls.Add(this.guna2ImageButton32);
-            this.panel2.Controls.Add(this.guna2ImageButton33);
-            this.panel2.Controls.Add(this.guna2ImageButton34);
-            this.panel2.Controls.Add(this.guna2ImageButton35);
-            this.panel2.Controls.Add(this.guna2ImageButton36);
-            this.panel2.Controls.Add(this.guna2ImageButton37);
-            this.panel2.Controls.Add(this.guna2ImageButton38);
-            this.panel2.Controls.Add(this.guna2ImageButton39);
-            this.panel2.Controls.Add(this.guna2ImageButton40);
-            this.panel2.Controls.Add(this.guna2ImageButton17);
-            this.panel2.Controls.Add(this.guna2ImageButton18);
-            this.panel2.Controls.Add(this.guna2ImageButton19);
-            this.panel2.Controls.Add(this.guna2ImageButton20);
-            this.panel2.Controls.Add(this.guna2ImageButton21);
-            this.panel2.Controls.Add(this.guna2ImageButton22);
-            this.panel2.Controls.Add(this.guna2ImageButton23);
-            this.panel2.Controls.Add(this.guna2ImageButton24);
-            this.panel2.Controls.Add(this.guna2ImageButton25);
-            this.panel2.Controls.Add(this.guna2ImageButton26);
-            this.panel2.Controls.Add(this.guna2ImageButton27);
-            this.panel2.Controls.Add(this.guna2ImageButton28);
-            this.panel2.Controls.Add(this.guna2ImageButton16);
-            this.panel2.Controls.Add(this.guna2ImageButton15);
-            this.panel2.Controls.Add(this.guna2ImageButton14);
-            this.panel2.Controls.Add(this.guna2ImageButton13);
-            this.panel2.Controls.Add(this.guna2ImageButton12);
-            this.panel2.Controls.Add(this.guna2ImageButton11);
-            this.panel2.Controls.Add(this.guna2ImageButton10);
-            this.panel2.Controls.Add(this.guna2ImageButton9);
-            this.panel2.Controls.Add(this.guna2ImageButton8);
-            this.panel2.Controls.Add(this.guna2ImageButton7);
-            this.panel2.Controls.Add(this.guna2ImageButton6);
-            this.panel2.Controls.Add(this.guna2ImageButton5);
-            this.panel2.Controls.Add(this.guna2ImageButton4);
-            this.panel2.Controls.Add(this.guna2ImageButton3);
-            this.panel2.Controls.Add(this.guna2ImageButton2);
-            this.panel2.Controls.Add(this.guna2ImageButton1);
+            this.panel2.Controls.Add(this.panel4);
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 60);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(898, 613);
+            this.panel2.Size = new System.Drawing.Size(980, 662);
             this.panel2.TabIndex = 1;
             // 
-            // guna2ImageButton2
-            // 
-            this.guna2ImageButton2.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton2.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton2.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton2.Image")));
-            this.guna2ImageButton2.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton2.ImageRotate = 0F;
-            this.guna2ImageButton2.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton2.Location = new System.Drawing.Point(306, 230);
-            this.guna2ImageButton2.Name = "guna2ImageButton2";
-            this.guna2ImageButton2.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton2.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton2.TabIndex = 1;
-            // 
-            // guna2ImageButton3
-            // 
-            this.guna2ImageButton3.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton3.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton3.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton3.Image")));
-            this.guna2ImageButton3.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton3.ImageRotate = 0F;
-            this.guna2ImageButton3.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton3.Location = new System.Drawing.Point(306, 312);
-            this.guna2ImageButton3.Name = "guna2ImageButton3";
-            this.guna2ImageButton3.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton3.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton3.TabIndex = 2;
-            // 
-            // guna2ImageButton4
-            // 
-            this.guna2ImageButton4.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton4.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton4.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton4.Image")));
-            this.guna2ImageButton4.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton4.ImageRotate = 0F;
-            this.guna2ImageButton4.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton4.Location = new System.Drawing.Point(306, 394);
-            this.guna2ImageButton4.Name = "guna2ImageButton4";
-            this.guna2ImageButton4.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton4.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton4.TabIndex = 3;
-            // 
-            // guna2ImageButton5
-            // 
-            this.guna2ImageButton5.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton5.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton5.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton5.Image")));
-            this.guna2ImageButton5.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton5.ImageRotate = 0F;
-            this.guna2ImageButton5.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton5.Location = new System.Drawing.Point(378, 148);
-            this.guna2ImageButton5.Name = "guna2ImageButton5";
-            this.guna2ImageButton5.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton5.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton5.TabIndex = 4;
-            // 
-            // guna2ImageButton6
-            // 
-            this.guna2ImageButton6.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton6.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton6.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton6.Image")));
-            this.guna2ImageButton6.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton6.ImageRotate = 0F;
-            this.guna2ImageButton6.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton6.Location = new System.Drawing.Point(378, 230);
-            this.guna2ImageButton6.Name = "guna2ImageButton6";
-            this.guna2ImageButton6.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton6.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton6.TabIndex = 5;
-            // 
-            // guna2ImageButton7
-            // 
-            this.guna2ImageButton7.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton7.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton7.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton7.Image")));
-            this.guna2ImageButton7.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton7.ImageRotate = 0F;
-            this.guna2ImageButton7.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton7.Location = new System.Drawing.Point(378, 312);
-            this.guna2ImageButton7.Name = "guna2ImageButton7";
-            this.guna2ImageButton7.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton7.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton7.TabIndex = 6;
-            // 
-            // guna2ImageButton8
-            // 
-            this.guna2ImageButton8.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton8.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton8.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton8.Image")));
-            this.guna2ImageButton8.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton8.ImageRotate = 0F;
-            this.guna2ImageButton8.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton8.Location = new System.Drawing.Point(378, 394);
-            this.guna2ImageButton8.Name = "guna2ImageButton8";
-            this.guna2ImageButton8.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton8.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton8.TabIndex = 7;
-            // 
-            // guna2ImageButton9
-            // 
-            this.guna2ImageButton9.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton9.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton9.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton9.Image")));
-            this.guna2ImageButton9.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton9.ImageRotate = 0F;
-            this.guna2ImageButton9.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton9.Location = new System.Drawing.Point(450, 148);
-            this.guna2ImageButton9.Name = "guna2ImageButton9";
-            this.guna2ImageButton9.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton9.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton9.TabIndex = 8;
-            // 
-            // guna2ImageButton10
-            // 
-            this.guna2ImageButton10.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton10.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton10.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton10.Image")));
-            this.guna2ImageButton10.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton10.ImageRotate = 0F;
-            this.guna2ImageButton10.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton10.Location = new System.Drawing.Point(450, 230);
-            this.guna2ImageButton10.Name = "guna2ImageButton10";
-            this.guna2ImageButton10.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton10.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton10.TabIndex = 9;
-            // 
-            // guna2ImageButton11
-            // 
-            this.guna2ImageButton11.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton11.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton11.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton11.Image")));
-            this.guna2ImageButton11.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton11.ImageRotate = 0F;
-            this.guna2ImageButton11.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton11.Location = new System.Drawing.Point(450, 312);
-            this.guna2ImageButton11.Name = "guna2ImageButton11";
-            this.guna2ImageButton11.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton11.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton11.TabIndex = 10;
-            // 
-            // guna2ImageButton12
-            // 
-            this.guna2ImageButton12.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton12.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton12.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton12.Image")));
-            this.guna2ImageButton12.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton12.ImageRotate = 0F;
-            this.guna2ImageButton12.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton12.Location = new System.Drawing.Point(450, 394);
-            this.guna2ImageButton12.Name = "guna2ImageButton12";
-            this.guna2ImageButton12.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton12.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton12.TabIndex = 11;
-            // 
-            // guna2ImageButton13
-            // 
-            this.guna2ImageButton13.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton13.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton13.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton13.Image")));
-            this.guna2ImageButton13.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton13.ImageRotate = 0F;
-            this.guna2ImageButton13.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton13.Location = new System.Drawing.Point(522, 148);
-            this.guna2ImageButton13.Name = "guna2ImageButton13";
-            this.guna2ImageButton13.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton13.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton13.TabIndex = 12;
-            // 
-            // guna2ImageButton14
-            // 
-            this.guna2ImageButton14.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton14.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton14.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton14.Image")));
-            this.guna2ImageButton14.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton14.ImageRotate = 0F;
-            this.guna2ImageButton14.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton14.Location = new System.Drawing.Point(522, 230);
-            this.guna2ImageButton14.Name = "guna2ImageButton14";
-            this.guna2ImageButton14.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton14.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton14.TabIndex = 13;
-            // 
-            // guna2ImageButton15
-            // 
-            this.guna2ImageButton15.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton15.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton15.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton15.Image")));
-            this.guna2ImageButton15.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton15.ImageRotate = 0F;
-            this.guna2ImageButton15.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton15.Location = new System.Drawing.Point(522, 312);
-            this.guna2ImageButton15.Name = "guna2ImageButton15";
-            this.guna2ImageButton15.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton15.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton15.TabIndex = 14;
-            // 
-            // guna2ImageButton16
-            // 
-            this.guna2ImageButton16.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton16.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton16.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton16.Image")));
-            this.guna2ImageButton16.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton16.ImageRotate = 0F;
-            this.guna2ImageButton16.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton16.Location = new System.Drawing.Point(522, 394);
-            this.guna2ImageButton16.Name = "guna2ImageButton16";
-            this.guna2ImageButton16.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton16.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton16.TabIndex = 15;
-            // 
-            // guna2ImageButton17
-            // 
-            this.guna2ImageButton17.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton17.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton17.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton17.Image")));
-            this.guna2ImageButton17.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton17.ImageRotate = 0F;
-            this.guna2ImageButton17.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton17.Location = new System.Drawing.Point(199, 394);
-            this.guna2ImageButton17.Name = "guna2ImageButton17";
-            this.guna2ImageButton17.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton17.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton17.TabIndex = 27;
-            // 
-            // guna2ImageButton18
-            // 
-            this.guna2ImageButton18.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton18.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton18.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton18.Image")));
-            this.guna2ImageButton18.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton18.ImageRotate = 0F;
-            this.guna2ImageButton18.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton18.Location = new System.Drawing.Point(199, 312);
-            this.guna2ImageButton18.Name = "guna2ImageButton18";
-            this.guna2ImageButton18.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton18.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton18.TabIndex = 26;
-            // 
-            // guna2ImageButton19
-            // 
-            this.guna2ImageButton19.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton19.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton19.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton19.Image")));
-            this.guna2ImageButton19.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton19.ImageRotate = 0F;
-            this.guna2ImageButton19.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton19.Location = new System.Drawing.Point(199, 230);
-            this.guna2ImageButton19.Name = "guna2ImageButton19";
-            this.guna2ImageButton19.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton19.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton19.TabIndex = 25;
-            // 
-            // guna2ImageButton20
-            // 
-            this.guna2ImageButton20.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton20.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton20.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton20.Image")));
-            this.guna2ImageButton20.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton20.ImageRotate = 0F;
-            this.guna2ImageButton20.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton20.Location = new System.Drawing.Point(199, 148);
-            this.guna2ImageButton20.Name = "guna2ImageButton20";
-            this.guna2ImageButton20.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton20.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton20.TabIndex = 24;
-            // 
-            // guna2ImageButton21
-            // 
-            this.guna2ImageButton21.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton21.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton21.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton21.Image")));
-            this.guna2ImageButton21.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton21.ImageRotate = 0F;
-            this.guna2ImageButton21.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton21.Location = new System.Drawing.Point(127, 394);
-            this.guna2ImageButton21.Name = "guna2ImageButton21";
-            this.guna2ImageButton21.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton21.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton21.TabIndex = 23;
-            // 
-            // guna2ImageButton22
-            // 
-            this.guna2ImageButton22.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton22.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton22.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton22.Image")));
-            this.guna2ImageButton22.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton22.ImageRotate = 0F;
-            this.guna2ImageButton22.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton22.Location = new System.Drawing.Point(127, 312);
-            this.guna2ImageButton22.Name = "guna2ImageButton22";
-            this.guna2ImageButton22.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton22.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton22.TabIndex = 22;
-            // 
-            // guna2ImageButton23
-            // 
-            this.guna2ImageButton23.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton23.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton23.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton23.Image")));
-            this.guna2ImageButton23.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton23.ImageRotate = 0F;
-            this.guna2ImageButton23.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton23.Location = new System.Drawing.Point(127, 230);
-            this.guna2ImageButton23.Name = "guna2ImageButton23";
-            this.guna2ImageButton23.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton23.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton23.TabIndex = 21;
-            // 
-            // guna2ImageButton24
-            // 
-            this.guna2ImageButton24.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton24.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton24.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton24.Image")));
-            this.guna2ImageButton24.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton24.ImageRotate = 0F;
-            this.guna2ImageButton24.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton24.Location = new System.Drawing.Point(127, 148);
-            this.guna2ImageButton24.Name = "guna2ImageButton24";
-            this.guna2ImageButton24.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton24.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton24.TabIndex = 20;
-            // 
-            // guna2ImageButton25
-            // 
-            this.guna2ImageButton25.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton25.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton25.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton25.Image")));
-            this.guna2ImageButton25.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton25.ImageRotate = 0F;
-            this.guna2ImageButton25.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton25.Location = new System.Drawing.Point(55, 394);
-            this.guna2ImageButton25.Name = "guna2ImageButton25";
-            this.guna2ImageButton25.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton25.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton25.TabIndex = 19;
-            // 
-            // guna2ImageButton26
-            // 
-            this.guna2ImageButton26.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton26.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton26.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton26.Image")));
-            this.guna2ImageButton26.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton26.ImageRotate = 0F;
-            this.guna2ImageButton26.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton26.Location = new System.Drawing.Point(55, 312);
-            this.guna2ImageButton26.Name = "guna2ImageButton26";
-            this.guna2ImageButton26.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton26.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton26.TabIndex = 18;
-            // 
-            // guna2ImageButton27
-            // 
-            this.guna2ImageButton27.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton27.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton27.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton27.Image")));
-            this.guna2ImageButton27.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton27.ImageRotate = 0F;
-            this.guna2ImageButton27.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton27.Location = new System.Drawing.Point(55, 230);
-            this.guna2ImageButton27.Name = "guna2ImageButton27";
-            this.guna2ImageButton27.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton27.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton27.TabIndex = 17;
-            // 
-            // guna2ImageButton28
-            // 
-            this.guna2ImageButton28.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton28.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton28.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton28.Image")));
-            this.guna2ImageButton28.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton28.ImageRotate = 0F;
-            this.guna2ImageButton28.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton28.Location = new System.Drawing.Point(55, 148);
-            this.guna2ImageButton28.Name = "guna2ImageButton28";
-            this.guna2ImageButton28.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton28.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton28.TabIndex = 16;
-            // 
-            // guna2ImageButton29
-            // 
-            this.guna2ImageButton29.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton29.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton29.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton29.Image")));
-            this.guna2ImageButton29.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton29.ImageRotate = 0F;
-            this.guna2ImageButton29.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton29.Location = new System.Drawing.Point(764, 394);
-            this.guna2ImageButton29.Name = "guna2ImageButton29";
-            this.guna2ImageButton29.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton29.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton29.TabIndex = 39;
-            // 
-            // guna2ImageButton30
-            // 
-            this.guna2ImageButton30.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton30.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton30.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton30.Image")));
-            this.guna2ImageButton30.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton30.ImageRotate = 0F;
-            this.guna2ImageButton30.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton30.Location = new System.Drawing.Point(764, 312);
-            this.guna2ImageButton30.Name = "guna2ImageButton30";
-            this.guna2ImageButton30.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton30.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton30.TabIndex = 38;
-            // 
-            // guna2ImageButton31
-            // 
-            this.guna2ImageButton31.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton31.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton31.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton31.Image")));
-            this.guna2ImageButton31.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton31.ImageRotate = 0F;
-            this.guna2ImageButton31.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton31.Location = new System.Drawing.Point(764, 230);
-            this.guna2ImageButton31.Name = "guna2ImageButton31";
-            this.guna2ImageButton31.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton31.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton31.TabIndex = 37;
-            // 
-            // guna2ImageButton32
-            // 
-            this.guna2ImageButton32.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton32.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton32.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton32.Image")));
-            this.guna2ImageButton32.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton32.ImageRotate = 0F;
-            this.guna2ImageButton32.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton32.Location = new System.Drawing.Point(764, 148);
-            this.guna2ImageButton32.Name = "guna2ImageButton32";
-            this.guna2ImageButton32.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton32.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton32.TabIndex = 36;
-            // 
-            // guna2ImageButton33
-            // 
-            this.guna2ImageButton33.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton33.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton33.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton33.Image")));
-            this.guna2ImageButton33.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton33.ImageRotate = 0F;
-            this.guna2ImageButton33.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton33.Location = new System.Drawing.Point(692, 394);
-            this.guna2ImageButton33.Name = "guna2ImageButton33";
-            this.guna2ImageButton33.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton33.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton33.TabIndex = 35;
-            // 
-            // guna2ImageButton34
-            // 
-            this.guna2ImageButton34.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton34.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton34.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton34.Image")));
-            this.guna2ImageButton34.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton34.ImageRotate = 0F;
-            this.guna2ImageButton34.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton34.Location = new System.Drawing.Point(692, 312);
-            this.guna2ImageButton34.Name = "guna2ImageButton34";
-            this.guna2ImageButton34.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton34.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton34.TabIndex = 34;
-            // 
-            // guna2ImageButton35
-            // 
-            this.guna2ImageButton35.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton35.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton35.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton35.Image")));
-            this.guna2ImageButton35.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton35.ImageRotate = 0F;
-            this.guna2ImageButton35.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton35.Location = new System.Drawing.Point(692, 230);
-            this.guna2ImageButton35.Name = "guna2ImageButton35";
-            this.guna2ImageButton35.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton35.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton35.TabIndex = 33;
-            // 
-            // guna2ImageButton36
-            // 
-            this.guna2ImageButton36.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton36.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton36.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton36.Image")));
-            this.guna2ImageButton36.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton36.ImageRotate = 0F;
-            this.guna2ImageButton36.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton36.Location = new System.Drawing.Point(692, 148);
-            this.guna2ImageButton36.Name = "guna2ImageButton36";
-            this.guna2ImageButton36.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton36.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton36.TabIndex = 32;
-            // 
-            // guna2ImageButton37
-            // 
-            this.guna2ImageButton37.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton37.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton37.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton37.Image")));
-            this.guna2ImageButton37.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton37.ImageRotate = 0F;
-            this.guna2ImageButton37.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton37.Location = new System.Drawing.Point(620, 394);
-            this.guna2ImageButton37.Name = "guna2ImageButton37";
-            this.guna2ImageButton37.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton37.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton37.TabIndex = 31;
-            // 
-            // guna2ImageButton38
-            // 
-            this.guna2ImageButton38.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton38.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton38.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton38.Image")));
-            this.guna2ImageButton38.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton38.ImageRotate = 0F;
-            this.guna2ImageButton38.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton38.Location = new System.Drawing.Point(620, 312);
-            this.guna2ImageButton38.Name = "guna2ImageButton38";
-            this.guna2ImageButton38.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton38.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton38.TabIndex = 30;
-            // 
-            // guna2ImageButton39
-            // 
-            this.guna2ImageButton39.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton39.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton39.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton39.Image")));
-            this.guna2ImageButton39.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton39.ImageRotate = 0F;
-            this.guna2ImageButton39.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton39.Location = new System.Drawing.Point(620, 230);
-            this.guna2ImageButton39.Name = "guna2ImageButton39";
-            this.guna2ImageButton39.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton39.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton39.TabIndex = 29;
-            // 
-            // guna2ImageButton40
-            // 
-            this.guna2ImageButton40.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton40.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton40.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton40.Image")));
-            this.guna2ImageButton40.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton40.ImageRotate = 0F;
-            this.guna2ImageButton40.ImageSize = new System.Drawing.Size(66, 66);
-            this.guna2ImageButton40.Location = new System.Drawing.Point(620, 148);
-            this.guna2ImageButton40.Name = "guna2ImageButton40";
-            this.guna2ImageButton40.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton40.Size = new System.Drawing.Size(66, 76);
-            this.guna2ImageButton40.TabIndex = 28;
-            // 
-            // iconButton1
-            // 
-            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.DoorOpen;
-            this.iconButton1.IconColor = System.Drawing.Color.Black;
-            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton1.Location = new System.Drawing.Point(0, 0);
-            this.iconButton1.Name = "iconButton1";
-            this.iconButton1.Size = new System.Drawing.Size(39, 51);
-            this.iconButton1.TabIndex = 40;
-            this.iconButton1.UseVisualStyleBackColor = true;
-            // 
-            // iconButton2
-            // 
-            this.iconButton2.IconChar = FontAwesome.Sharp.IconChar.DoorOpen;
-            this.iconButton2.IconColor = System.Drawing.Color.Black;
-            this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton2.Location = new System.Drawing.Point(859, 0);
-            this.iconButton2.Name = "iconButton2";
-            this.iconButton2.Size = new System.Drawing.Size(39, 51);
-            this.iconButton2.TabIndex = 41;
-            this.iconButton2.UseVisualStyleBackColor = true;
-            // 
-            // iconButton3
-            // 
-            this.iconButton3.IconChar = FontAwesome.Sharp.IconChar.DoorOpen;
-            this.iconButton3.IconColor = System.Drawing.Color.Black;
-            this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton3.Location = new System.Drawing.Point(0, 562);
-            this.iconButton3.Name = "iconButton3";
-            this.iconButton3.Size = new System.Drawing.Size(39, 51);
-            this.iconButton3.TabIndex = 42;
-            this.iconButton3.UseVisualStyleBackColor = true;
-            // 
-            // iconButton4
-            // 
-            this.iconButton4.IconChar = FontAwesome.Sharp.IconChar.DoorOpen;
-            this.iconButton4.IconColor = System.Drawing.Color.Black;
-            this.iconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton4.Location = new System.Drawing.Point(859, 562);
-            this.iconButton4.Name = "iconButton4";
-            this.iconButton4.Size = new System.Drawing.Size(39, 51);
-            this.iconButton4.TabIndex = 43;
-            this.iconButton4.UseVisualStyleBackColor = true;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.panel3.Location = new System.Drawing.Point(306, 230);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(282, 158);
-            this.panel3.TabIndex = 44;
+            // panel4
+            // 
+            this.panel4.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.panel4.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.panel4.Controls.Add(this.Film_nameLabel);
+            this.panel4.Location = new System.Drawing.Point(42, 6);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(898, 28);
+            this.panel4.TabIndex = 63;
             // 
             // Seat_Chosing
             // 
@@ -775,10 +1175,11 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "Seat_Chosing";
-            this.Size = new System.Drawing.Size(898, 673);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.Size = new System.Drawing.Size(980, 722);
+            this.panel3.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -787,51 +1188,56 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label Film_nameLabel;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton1;
-        private System.Windows.Forms.Panel panel2;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton29;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton30;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton31;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton32;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton33;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton34;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton35;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton36;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton37;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton38;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton39;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton40;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton17;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton18;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton19;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton20;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton21;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton22;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton23;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton24;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton25;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton26;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton27;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton28;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton16;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton15;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton14;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton13;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton12;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton11;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton10;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton9;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton8;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton7;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton6;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton5;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton4;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton3;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton2;
-        private FontAwesome.Sharp.IconButton iconButton4;
-        private FontAwesome.Sharp.IconButton iconButton3;
-        private FontAwesome.Sharp.IconButton iconButton2;
-        private FontAwesome.Sharp.IconButton iconButton1;
         private System.Windows.Forms.Panel panel3;
+        private Guna.UI2.WinForms.Guna2Button Seat48;
+        private Guna.UI2.WinForms.Guna2Button Seat47;
+        private Guna.UI2.WinForms.Guna2Button Seat46;
+        private Guna.UI2.WinForms.Guna2Button Seat45;
+        private Guna.UI2.WinForms.Guna2Button Seat44;
+        private Guna.UI2.WinForms.Guna2Button Seat43;
+        private Guna.UI2.WinForms.Guna2Button Seat42;
+        private Guna.UI2.WinForms.Guna2Button Seat41;
+        private Guna.UI2.WinForms.Guna2Button Seat40;
+        private Guna.UI2.WinForms.Guna2Button Seat39;
+        private Guna.UI2.WinForms.Guna2Button Seat38;
+        private Guna.UI2.WinForms.Guna2Button Seat36;
+        private Guna.UI2.WinForms.Guna2Button Seat35;
+        private Guna.UI2.WinForms.Guna2Button Seat34;
+        private Guna.UI2.WinForms.Guna2Button Seat33;
+        private Guna.UI2.WinForms.Guna2Button Seat32;
+        private Guna.UI2.WinForms.Guna2Button Seat31;
+        private Guna.UI2.WinForms.Guna2Button Seat30;
+        private Guna.UI2.WinForms.Guna2Button Seat29;
+        private Guna.UI2.WinForms.Guna2Button Seat28;
+        private Guna.UI2.WinForms.Guna2Button Seat27;
+        private Guna.UI2.WinForms.Guna2Button Seat26;
+        private Guna.UI2.WinForms.Guna2Button Seat24;
+        private Guna.UI2.WinForms.Guna2Button Seat23;
+        private Guna.UI2.WinForms.Guna2Button Seat22;
+        private Guna.UI2.WinForms.Guna2Button Seat21;
+        private Guna.UI2.WinForms.Guna2Button Seat20;
+        private Guna.UI2.WinForms.Guna2Button Seat19;
+        private Guna.UI2.WinForms.Guna2Button Seat18;
+        private Guna.UI2.WinForms.Guna2Button Seat17;
+        private Guna.UI2.WinForms.Guna2Button Seat16;
+        private Guna.UI2.WinForms.Guna2Button Seat15;
+        private Guna.UI2.WinForms.Guna2Button Seat14;
+        private Guna.UI2.WinForms.Guna2Button Seat12;
+        private Guna.UI2.WinForms.Guna2Button Seat11;
+        private Guna.UI2.WinForms.Guna2Button Seat10;
+        private Guna.UI2.WinForms.Guna2Button Seat9;
+        private Guna.UI2.WinForms.Guna2Button Seat8;
+        private Guna.UI2.WinForms.Guna2Button Seat7;
+        private Guna.UI2.WinForms.Guna2Button Seat6;
+        private Guna.UI2.WinForms.Guna2Button Seat5;
+        private Guna.UI2.WinForms.Guna2Button Seat4;
+        private Guna.UI2.WinForms.Guna2Button Seat3;
+        private Guna.UI2.WinForms.Guna2Button Seat2;
+        private Guna.UI2.WinForms.Guna2Button Seat37;
+        private Guna.UI2.WinForms.Guna2Button Seat25;
+        private Guna.UI2.WinForms.Guna2Button Seat13;
+        private Guna.UI2.WinForms.Guna2Button Seat1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel4;
     }
 }

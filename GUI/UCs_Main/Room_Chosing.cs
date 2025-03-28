@@ -12,7 +12,7 @@ namespace Winform_Nhom20_BTL.GUI
 {
     public partial class Room_Chosing: UserControl
     {
-        private string filmName;
+        private readonly string filmName;
         private SellForm sellForm;
         public Room_Chosing(string filmName, SellForm sellForm)
         {
@@ -28,6 +28,11 @@ namespace Winform_Nhom20_BTL.GUI
             sellForm.Room_Save_Click(sender, e);
         }
 
+        private void Bind_DataGridView_Using_DataTable_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox1.Checked) {
@@ -36,22 +41,6 @@ namespace Winform_Nhom20_BTL.GUI
             else
             {
                 // Show all rooms
-            }
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (comboBox1.SelectedIndex == 0)
-            {
-                // Sort by name
-            }
-            else if (comboBox1.SelectedIndex == 1)
-            {
-                // Sort by ascending order
-            }
-            else
-            {
-                // Sort by descending order
             }
         }
     }

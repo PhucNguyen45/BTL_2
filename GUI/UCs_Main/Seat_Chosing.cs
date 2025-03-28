@@ -23,9 +23,6 @@ namespace Winform_Nhom20_BTL.GUI
             Film_nameLabel.Text = filmName;
         }
 
-        private void guna2ImageButton1_Click(object sender, EventArgs e)
-        {
-            
-        }
+
     }
 }

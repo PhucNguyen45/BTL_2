@@ -28,37 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label3 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.ID_Room = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Room_Number = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Film_Playing = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Seat_Count = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Seat_Per_Room = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(149, 114);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(55, 17);
-            this.label3.TabIndex = 12;
-            this.label3.Text = "Sắp xếp";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Từ A -> Z",
-            "Thứ tự tăng dần",
-            "Thứ tự giảm dần"});
-            this.comboBox1.Location = new System.Drawing.Point(210, 112);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(153, 21);
-            this.comboBox1.TabIndex = 11;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label2
             // 
@@ -98,18 +78,52 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ID_Room,
+            this.Room_Number,
+            this.Film_Playing,
+            this.Seat_Count,
+            this.Seat_Per_Room});
             this.dataGridView1.Location = new System.Drawing.Point(29, 139);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(993, 437);
             this.dataGridView1.TabIndex = 7;
+            // 
+            // ID_Room
+            // 
+            this.ID_Room.HeaderText = "ID";
+            this.ID_Room.Name = "ID_Room";
+            this.ID_Room.Width = 43;
+            // 
+            // Room_Number
+            // 
+            this.Room_Number.HeaderText = "Phòng Chiếu";
+            this.Room_Number.Name = "Room_Number";
+            this.Room_Number.Width = 93;
+            // 
+            // Film_Playing
+            // 
+            this.Film_Playing.HeaderText = "Phim";
+            this.Film_Playing.Name = "Film_Playing";
+            this.Film_Playing.Width = 55;
+            // 
+            // Seat_Count
+            // 
+            this.Seat_Count.HeaderText = "Số Ghế Trống";
+            this.Seat_Count.Name = "Seat_Count";
+            this.Seat_Count.Width = 99;
+            // 
+            // Seat_Per_Room
+            // 
+            this.Seat_Per_Room.HeaderText = "Số Ghế";
+            this.Seat_Per_Room.Name = "Seat_Per_Room";
+            this.Seat_Per_Room.Width = 68;
             // 
             // Room_Chosing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightCyan;
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.label1);
@@ -123,12 +137,14 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ID_Room;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Room_Number;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Film_Playing;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Seat_Count;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Seat_Per_Room;
     }
 }

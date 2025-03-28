@@ -16,6 +16,9 @@ namespace Winform_Nhom20_BTL
         {
             InitializeComponent();
 
+            Username_txt.KeyDown += Username_KeyDown;
+            Password_txt.KeyDown += Password_KeyDown;
+
             this.FormClosing += new FormClosingEventHandler(LoginForm_FormClosing);
         }
 
@@ -24,26 +27,44 @@ namespace Winform_Nhom20_BTL
             Application.Exit();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Username_KeyDown(object sender, KeyEventArgs e)
         {
-            string user = textbox1.Text.Trim();
-            string pass = textBox2.Text.Trim();
+            if (e.KeyCode == Keys.Enter)
+            {
+                e.SuppressKeyPress = true;
+                Password_txt.Focus();
+                Password_txt.SelectAll();
+            }
+        }
+
+        private void Password_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                e.SuppressKeyPress = true;
+                LoginButton_Click(sender, e);
+            }
+        }
+
+        private void LoginButton_Click(object sender, EventArgs e)
+        {
+            string user = Username_txt.Text.Trim();
+            string pass = Password_txt.Text.Trim();
             if (user == string.Empty) 
             { 
                 MessageBox.Show("Chưa nhập user name !");
-                textbox1.Focus();
+                Username_txt.Focus();
                 return;
             }
             if (pass == string.Empty)
             {
                 MessageBox.Show("Chưa nhập pass !");
-                textBox2.Focus();
+                Password_txt.Focus();
                 return;
             }
             if (user == "admin" && pass == "admin")
             {
                 DashBoardForm f2 = new DashBoardForm(user);
-                //f2.FormClosed += (s, args) => this.Show();
                 f2.Show();
                 this.Hide();
                 f2.FormClosed += (s, args) => this.Show();
@@ -51,9 +72,9 @@ namespace Winform_Nhom20_BTL
             else
             {
                 MessageBox.Show("Sai tên đăng nhập hoặc mật khẩu");
-                textbox1.Clear();
-                textBox2.Clear();
-                textbox1.Focus();
+                Username_txt.Clear();
+                Password_txt.Clear();
+                Username_txt.Focus();
             }
         }
 
@@ -70,11 +91,11 @@ namespace Winform_Nhom20_BTL
         {
             if (checkBox1.Checked == true) 
             {
-                textBox2.UseSystemPasswordChar = false;
+                Password_txt.UseSystemPasswordChar = false;
             }
             else
             {
-                textBox2.UseSystemPasswordChar = true;
+                Password_txt.UseSystemPasswordChar = true;
             }
         }
 
