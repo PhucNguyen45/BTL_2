@@ -8,7 +8,6 @@ using System.Data.SqlTypes;
 using System.Data.Sql;
 using System.Windows.Forms;
 using Winform_Nhom20_BTL.GUI;
-using Winform_Nhom20_BTL.GUI.UCs_Main;
 
 namespace Winform_Nhom20_BTL
 {
@@ -25,6 +24,6 @@ namespace Winform_Nhom20_BTL
             Application.Run(new LoginForm());
         }
 
-        //static string connectionString = @"Server=RAZER;Database=csdlflim;User Id=sa;Password=123;";
+        //static string connectionString = @"Data Source=RAZER;Initial Catalog=QLRP;Integrated Security=True;Trust Server Certificate=True";
     }
 }

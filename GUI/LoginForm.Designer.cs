@@ -67,7 +67,6 @@
             this.Username_txt.Size = new System.Drawing.Size(135, 20);
             this.Username_txt.TabIndex = 4;
             this.Username_txt.Tag = "";
-            this.Username_txt.TextChanged += new System.EventHandler(this.textbox1_TextChanged);
             // 
             // Password_txt
             // 

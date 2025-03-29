@@ -21,7 +21,7 @@ namespace Winform_Nhom20_BTL
             
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Add_Order_Click(object sender, EventArgs e)
         {
             SellForm f3 = new SellForm();
             f3.Show();
@@ -29,7 +29,15 @@ namespace Winform_Nhom20_BTL
             f3.FormClosed += (s, args) => this.Show();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Order_Managemt_Click(object sender, EventArgs e)
+        {
+            FrmTrangchinh frmQL = new FrmTrangchinh();
+            frmQL.Show();
+            this.Hide();
+            frmQL.FormClosed += (s, args) => this.Show();
+        }
+
+        private void btn_LogOut_Click(object sender, EventArgs e)
         {
             DialogResult results = MessageBox.Show("Bạn muốn thoát ?", "Xác nhận", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
             if (results == DialogResult.OK)
@@ -38,12 +46,6 @@ namespace Winform_Nhom20_BTL
             }
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            FrmTrangchinh frmQL = new FrmTrangchinh();
-            frmQL.Show();
-            this.Hide();
-            frmQL.FormClosed += (s, args) => this.Show();
-        }
+        
     }
 }

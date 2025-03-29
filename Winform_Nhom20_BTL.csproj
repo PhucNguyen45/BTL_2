@@ -117,18 +117,6 @@
     <Compile Include="GUI\ReceiptPrinting.Designer.cs">
       <DependentUpon>ReceiptPrinting.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\UCs_Main\DateTime_Chosing.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="GUI\UCs_Main\DateTime_Chosing.Designer.cs">
-      <DependentUpon>DateTime_Chosing.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GUI\UCs_Main\Film_Chosing.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="GUI\UCs_Main\Film_Chosing.Designer.cs">
-      <DependentUpon>Film_Chosing.cs</DependentUpon>
-    </Compile>
     <Compile Include="GUI\FormsQL\Frmdoanhthu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -177,44 +165,14 @@
     <Compile Include="GUI\DashBoardForm.Designer.cs">
       <DependentUpon>DashBoardForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\UCs_Main\Room_Chosing.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="GUI\UCs_Main\Room_Chosing.Designer.cs">
-      <DependentUpon>Room_Chosing.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GUI\UCs_Main\Seat_Chosing.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="GUI\UCs_Main\Seat_Chosing.Designer.cs">
-      <DependentUpon>Seat_Chosing.cs</DependentUpon>
-    </Compile>
     <Compile Include="GUI\SellForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GUI\SellForm.Designer.cs">
       <DependentUpon>SellForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\UCs_Main\Service.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="GUI\UCs_Main\Service.Designer.cs">
-      <DependentUpon>Service.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="GUI\UCs_Main\Customer_Info.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="GUI\UCs_Main\Customer_Info.Designer.cs">
-      <DependentUpon>Customer_Info.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="GUI\UCs_Main\DateTime_Chosing.resx">
-      <DependentUpon>DateTime_Chosing.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI\UCs_Main\Film_Chosing.resx">
-      <DependentUpon>Film_Chosing.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="GUI\FormsQL\Frmdoanhthu.resx">
       <DependentUpon>Frmdoanhthu.cs</DependentUpon>
     </EmbeddedResource>
@@ -239,17 +197,8 @@
     <EmbeddedResource Include="GUI\DashBoardForm.resx">
       <DependentUpon>DashBoardForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\UCs_Main\Room_Chosing.resx">
-      <DependentUpon>Room_Chosing.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI\UCs_Main\Seat_Chosing.resx">
-      <DependentUpon>Seat_Chosing.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="GUI\SellForm.resx">
       <DependentUpon>SellForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI\UCs_Main\Service.resx">
-      <DependentUpon>Service.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -260,9 +209,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="GUI\UCs_Main\Customer_Info.resx">
-      <DependentUpon>Customer_Info.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="fonts\fontawesome-webfont.eot" />
     <None Include="fonts\fontawesome-webfont.ttf" />
     <None Include="fonts\fontawesome-webfont.woff" />
@@ -288,6 +234,7 @@
     <Folder Include="DAL\" />
     <Folder Include="DTO\" />
     <Folder Include="Entity\" />
+    <Folder Include="GUI\UCs_Main\" />
     <Folder Include="RES\" />
   </ItemGroup>
   <ItemGroup>
